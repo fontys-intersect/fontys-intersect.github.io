@@ -4,7 +4,7 @@ import { Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link } f
 export const Wled = () => (
   <Box w={"100%"} alignItems="center">
     <Image
-      src={"/assets/images/wled_logo.png"}
+      src={"/fontys-intersect-2021/assets/images/wled_logo.png"}
       alt="test"
       h={"15%"}
       w={"15%"}

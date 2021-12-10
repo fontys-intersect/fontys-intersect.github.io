@@ -13,7 +13,7 @@ import {
 export const Password = () => (
   <Box w={"100%"} alignItems="center">
     <Image
-      src={"/assets/images/owasp-logo.png"}
+      src={"/fontys-intersect-2021/assets/images/owasp-logo.png"}
       alt="test"
       h={"15%"}
       w={"15%"}
@@ -21,7 +21,7 @@ export const Password = () => (
       marginTop={"1%"}
     />
     <Container maxW={["100%", "80%"]} p={4}>
-      <Text fontSize="3xl"> Weak, Guessale, or Hardcoded Passwords </Text>
+      <Text fontSize="3xl"> Weak, Guessable, or Hardcoded Passwords </Text>
       <Text fontSize={"l"}>
         As more and more devices become accessible through a login, having a
         secure password set-up is mandatory. Most of the IoT botnet malware

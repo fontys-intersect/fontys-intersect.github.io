@@ -27,7 +27,7 @@ const NavLink = ({ children }: { children: ReactNode }) => (
       textDecoration: "none",
       bg: useColorModeValue("gray.200", "gray.700"),
     }}
-    href={"/" + children?.toString().toLocaleLowerCase()}
+    href={"/fontys-intersect-2021/#/" + children?.toString().toLocaleLowerCase()}
   >
     {children}
   </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
           />
           <HStack spacing={8} alignItems={"center"}>
             <Box>
-              <Image boxSize="35px" src={"/assets/images/random.png"} alt="Logo" />
+              <Image boxSize="35px" src={"/fontys-intersect-2021/assets/images/random.png"} alt="Logo" />
             </Box>
             <HStack
               as={"nav"}
@@ -64,13 +64,13 @@ export default function Navbar() {
                   textDecoration: "none",
                   bg: useColorModeValue("gray.200", "gray.700"),
                 }}
-                href={"/"}
+                href={"/fontys-intersect-2021/#/"}
               >
                 Home
               </Link>
-              {Links.map((link) => (
+              {/* {Links.map((link) => (
                 <NavLink key={link}>{link}</NavLink>
-              ))}
+              ))} */}
               <Menu>
               <MenuButton
                 // as={Button}
@@ -88,7 +88,10 @@ export default function Navbar() {
                 IoT Security Research
               </MenuButton>
               <MenuList>
-                <MenuItem as="a" href="/case/wled">
+              <MenuItem as="a" href="/fontys-intersect-2021/#/owasp/top">
+                  OWASP
+                </MenuItem>
+                <MenuItem as="a" href="/fontys-intersect-2021/#/case/wled">
                   IoT test tooling
                 </MenuItem>
                 <MenuItem as="a" href="/"> Tools used</MenuItem>
@@ -108,11 +111,11 @@ export default function Navbar() {
                   bg: useColorModeValue("gray.200", "gray.700"),
                 }}
               >
-                OWASP
+                Best practices
               </MenuButton>
               <MenuList>
-                <MenuItem as="a" href="/owasp/top">
-                  IoT Owasp Top 10
+                <MenuItem as="a" href="/fontys-intersect-2021/#/bestpractices">
+                  Overview
                 </MenuItem>
                 <MenuItem as="a" href="/">Common exploits</MenuItem>
                 <MenuItem as="a" href="/">Mitigation techniques</MenuItem>
@@ -138,11 +141,11 @@ export default function Navbar() {
                 Cases
               </MenuButton>
               <MenuList>
-                <MenuItem as="a" href="/case/wled">
+                <MenuItem as="a" href="/fontys-intersect-2021/#/case/wled">
                   WLED
                 </MenuItem>
                 <MenuItem as="a" href="/">Bosch Siemens</MenuItem>
-                <MenuItem as="a" href="/">Case 3</MenuItem>
+                <MenuItem as="a" href="/">HP Printer</MenuItem>
               </MenuList>
             </Menu>
           </Flex>

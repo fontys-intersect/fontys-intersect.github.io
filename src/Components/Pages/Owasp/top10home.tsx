@@ -14,7 +14,7 @@ import {
 export const OwaspHome = () => (
   <Box w={"100%"} alignItems="center">
     <Image
-      src={"/assets/images/owasp-logo.png"}
+      src={"/fontys-intersect-2021/assets/images/owasp-logo.png"}
       alt="test"
       h={"15%"}
       w={"15%"}
@@ -33,7 +33,7 @@ export const OwaspHome = () => (
       <Text fontSize={"l"}>
         <OrderedList>
           <ListItem>
-            <Link href="/owasp/top/1">
+            <Link href="/fontys-intersect-2021/#/owasp/top/1">
               Weak, Guessable, or Hardcoded Passwords
             </Link>
           </ListItem>
