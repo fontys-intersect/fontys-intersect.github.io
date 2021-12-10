@@ -6,7 +6,12 @@ import { BestPractices } from "./Pages/BestPractices";
 import { Authentication } from "./Pages/BestPractices/authentication";
 import { Authorization } from "./Pages/BestPractices/authorization";
 import { Certificates } from "./Pages/BestPractices/certificates";
+import { DataHandling } from "./Pages/BestPractices/dataHandling";
+import { PrivacyStandard } from "./Pages/BestPractices/privacyStandard";
+import { SecretManagement } from "./Pages/BestPractices/secretManagement";
+
 import { SecData } from "./Pages/BestPractices/securedata";
+import { VersionUpdate } from "./Pages/BestPractices/versionUpdate";
 import { Wled } from "./Pages/Cases/WLED";
 import { Homepage } from "./Pages/homepage";
 import { Password } from "./Pages/Owasp/passwords";
@@ -28,6 +33,10 @@ class Router extends Component {
           <Route path="/bestpractices/authorization" exact component={Authorization} />
           <Route path="/bestpractices/securedata" exact component={SecData} />
           <Route path="/bestpractices/certificates" exact component={Certificates} />
+          <Route path="/bestpractices/datahandling" exact component={DataHandling} />
+          <Route path="/bestpractices/privacy" exact component={PrivacyStandard} />
+          <Route path="/bestpractices/secretmanagement" exact component={SecretManagement} />
+          <Route path="/bestpractices/versionupdate" exact component={VersionUpdate} />
         </Switch>
         <Footer />
       </HashRouter>
