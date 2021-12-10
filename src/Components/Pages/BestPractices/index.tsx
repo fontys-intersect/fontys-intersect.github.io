@@ -33,6 +33,7 @@ export const BestPractices = () => (
         <Link href="/fontys-intersect-2021/#/bestpractices/splitdev"><ListItem>Split development and production environments</ListItem></Link>
         <Link href="/fontys-intersect-2021/#/bestpractices/monitoring"><ListItem>Monitoring and Logging</ListItem></Link>
         <Link href="/fontys-intersect-2021/#/bestpractices/versionupdate"><ListItem>Version update</ListItem></Link>
+        <Link href="/fontys-intersect-2021/#/bestpractices/secretmanagement"><ListItem>Secret Management</ListItem></Link>
         <Link href="/fontys-intersect-2021/#/bestpractices/privacy"><ListItem>Privacy by default</ListItem></Link>
         <Link href="/fontys-intersect-2021/#/bestpractices/datahandling"><ListItem>Data handling and transparency</ListItem></Link>
       </UnorderedList>

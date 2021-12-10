@@ -6,20 +6,23 @@ import { BestPractices } from "./Pages/BestPractices";
 import { Authentication } from "./Pages/BestPractices/authentication";
 import { Authorization } from "./Pages/BestPractices/authorization";
 import { Certificates } from "./Pages/BestPractices/certificates";
+
 import { ErrorHandling } from "./Pages/BestPractices/errorHandling";
 import { InputValidation } from "./Pages/BestPractices/inputvalidation";
 import { SecData } from "./Pages/BestPractices/securedata";
 import { SplitDevelopment } from "./Pages/BestPractices/splitdev";
-import { Wled } from "./Pages/Cases/WLED";
-import { Homepage } from "./Pages/homepage";
-import { Password } from "./Pages/Owasp/passwords";
-import { OwaspHome } from "./Pages/Owasp/top10home";
+
 import { DataHandling } from "./Pages/BestPractices/dataHandling";
 import { PrivacyStandard } from "./Pages/BestPractices/privacyStandard";
 import { SecretManagement } from "./Pages/BestPractices/secretManagement";
 
 import { SecData } from "./Pages/BestPractices/securedata";
 import { VersionUpdate } from "./Pages/BestPractices/versionUpdate";
+
+import { Wled } from "./Pages/Cases/WLED";
+import { Homepage } from "./Pages/homepage";
+import { Password } from "./Pages/Owasp/passwords";
+import { OwaspHome } from "./Pages/Owasp/top10home";
 
 class Router extends Component {
   render() {
