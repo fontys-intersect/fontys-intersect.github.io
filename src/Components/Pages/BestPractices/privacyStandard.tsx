@@ -59,7 +59,7 @@ export const PrivacyStandard = () => (
       <br />
       <Text fontSize={'xl'}>Cases</Text>
       <Text fontSize={'l'}>
-        We don't have an explicit example in our cases but in theorie all devices should apply this best practices as it
+        We don't have an explicit example in our cases but in theory all devices should apply this best practices, as it
         is required by dutch law. Not following this law opens the possibility for some serious consequences like a huge
         fine.
       </Text>

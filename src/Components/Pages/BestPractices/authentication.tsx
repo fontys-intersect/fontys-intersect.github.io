@@ -151,6 +151,28 @@ export const Authentication = () => (
           </ListItem>
         </UnorderedList>
       </Text>
+      <br/>
+      <Text fontSize={"xl"}>Cases</Text>
+      <Text fontSize={"l"} fontWeight={"bold"}>
+        Smartwatch
+      </Text>
+      <Text fontSize={"l"}>
+        The smartwatches had bad authentication, the user could access and abuse certain interfaces.
+      </Text>
+      <Text fontSize={"l"} fontWeight={"bold"}>
+        Smart Lock
+      </Text>
+      <Text fontSize={"l"}>
+        The smart lock had bad authentication, the user could brute force their way into the system and the password requirements were almost entirely absent.
+
+      </Text>
+      <Text fontSize={"l"} fontWeight={"bold"}>
+        Bosch Siemens
+      </Text>
+      <Text fontSize={"l"}>
+        The bosch siemens case showed a good way to authenticate and a secure way of doing so.
+
+      </Text>
       <Divider m={2} />
       <Text fontSize="3xl"> Bibliography </Text>
       <Text fontSize={"xl"}>
