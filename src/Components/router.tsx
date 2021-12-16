@@ -19,6 +19,7 @@ import { Homepage } from "./Pages/homepage";
 import { Password } from "./Pages/Owasp/passwords";
 import { OwaspHome } from "./Pages/Owasp/top10home";
 import { Monitoring } from "./Pages/BestPractices/monitoring";
+import { SmartLockBT } from "./Pages/Cases/smartLockBT";
 
 class Router extends Component {
   render() {
@@ -29,6 +30,7 @@ class Router extends Component {
         <Switch>
           <Route path="/" exact component={Homepage} />
           <Route path="/case/wled" exact component={Wled} />
+          <Route path="/case/smartlockbt" exact component={SmartLockBT} />
           <Route path="/owasp/top" exact component={OwaspHome} />
           <Route path="/owasp/top/1" exact component={Password} />
           <Route path="/bestpractices" exact component={BestPractices} />
