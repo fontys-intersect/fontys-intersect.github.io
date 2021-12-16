@@ -15,8 +15,8 @@ export const ErrorHandling = () => (
     <Container maxW={["100%", "80%"]} p={4}>
       <Text fontSize="3xl"> Error handling </Text>
       <Text fontSize={"l"}>
-        An in-depth page about Certificates. In this page, it will be explained
-        how it works and how it should be used.
+        This page will go in-depth on the topic of error handling; what it is,
+        why it’s important, and how it could be implemented securely.
       </Text>
       <br />
       <Text fontSize={"xl"}>Table of Contents</Text>
@@ -114,8 +114,9 @@ export const ErrorHandling = () => (
             <Link href="https://www.iotsecurityfoundation.org/wp-content/uploads/2019/12/Best-Practice-Guides-Release-2_Digitalv3.pdf">
               IoT security foundation <ExternalLinkIcon mx="2px" />
             </Link>
-          </ListItem><ListItem>
-          J.F.W.J.B. (z.d.). Improper Error Handling. OWASP. from &nbsp;
+          </ListItem>
+          <ListItem>
+            J.F.W.J.B. (z.d.). Improper Error Handling. OWASP. from &nbsp;
             <Link href="https://owasp.org/www-community/Improper_Error_Handling">
               OWASP <ExternalLinkIcon mx="2px" />
             </Link>
