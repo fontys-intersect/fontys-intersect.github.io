@@ -60,7 +60,7 @@ export const SmartLockBT = () => (
       </Text>
       <br />
       <Image
-        src={'/fontys-intersect-2021/assets/images/BTLockCommunication.png'}
+        src={'/fontys-intersect-2021/assets/images/BTlockCommunication.png'}
         alt="test"
         h={'30%'}
         w={'30%'}
