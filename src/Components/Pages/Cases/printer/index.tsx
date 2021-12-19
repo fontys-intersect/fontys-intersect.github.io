@@ -1,16 +1,14 @@
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 import { Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link } from '@chakra-ui/react';
 
-export const SmartLockBT = () => (
+export const Printer = () => (
   <Box w={'100%'} alignItems="center">
     <Container maxW={['100%', '80%']} p={4}>
       <Text fontSize="3xl"> Smart Lock Bluetooth case</Text>
       <br />
       <Text fontSize="xl"> Introduction </Text>
       <Text fontSize={'l'}>
-        The Master Lock Bluetooth padlock is a Bluetooth enabled padlock which comes in two form factors for indoor and
-        outdoor usage. It has the look and feel of an ordinary padlock but instead of a keyway, it has a 4-directional
-        pad that serves as the input device for the override mechanism.
+        The HP Laserjet 2600 printer is a professional, wide-format business Inkjet printer designed for workgroups.
       </Text>
       <br />
       <Text fontSize={'xl'}>Table of Contents</Text>
@@ -21,11 +19,10 @@ export const SmartLockBT = () => (
         <ListItem>Conclusion</ListItem>
       </UnorderedList>
       <br />
-      <Text fontSize={'xl'}>Strenghts</Text>
+      <Text fontSize={'xl'}>Strengths</Text>
       <Text fontSize={'ll'}>
-        During our research we weren't able to read any of the data communications from the device to the mobile
-        application, through bluetooth. For the bluetooth communication we used bluetooth scanning on a kali linux
-        machine. Both of these methods returned no usable results.
+        During our research we weren't able to many  of the data communications from the device to the
+        printer.
       </Text>
       <br />
       <Text fontSize={'xl'}>Vulnerabilities</Text>

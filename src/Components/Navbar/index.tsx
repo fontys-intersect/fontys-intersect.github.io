@@ -151,6 +151,9 @@ export default function Navbar() {
                 <MenuItem as="a" href="/fontys-intersect-2021/#/case/smartlockbt">
                   Smart Lock Bluetooth
                 </MenuItem>
+                <MenuItem as="a" href="/fontys-intersect-2021/#/case/solaredge">
+                  Solar Edge
+                </MenuItem>
               </MenuList>
             </Menu>
           </Flex>

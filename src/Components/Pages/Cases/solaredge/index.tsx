@@ -1,91 +1,49 @@
-import { ExternalLinkIcon } from '@chakra-ui/icons';
-import { Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link } from '@chakra-ui/react';
+import {ExternalLinkIcon} from '@chakra-ui/icons';
+import {Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link} from '@chakra-ui/react';
 
-export const SmartLockBT = () => (
-  <Box w={'100%'} alignItems="center">
-    <Container maxW={['100%', '80%']} p={4}>
-      <Text fontSize="3xl"> Smart Lock Bluetooth case</Text>
-      <br />
-      <Text fontSize="xl"> Introduction </Text>
-      <Text fontSize={'l'}>
-        The Master Lock Bluetooth padlock is a Bluetooth enabled padlock which comes in two form factors for indoor and
-        outdoor usage. It has the look and feel of an ordinary padlock but instead of a keyway, it has a 4-directional
-        pad that serves as the input device for the override mechanism.
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>Table of Contents</Text>
-      <UnorderedList>
-        <ListItem>Strenghts</ListItem>
-        <ListItem>Vulnerabilities</ListItem>
-        <ListItem>Best Practises</ListItem>
-        <ListItem>Conclusion</ListItem>
-      </UnorderedList>
-      <br />
-      <Text fontSize={'xl'}>Strenghts</Text>
-      <Text fontSize={'ll'}>
-        During our research we weren't able to read any of the data communications from the device to the mobile
-        application, through bluetooth. For the bluetooth communication we used bluetooth scanning on a kali linux
-        machine. Both of these methods returned no usable results.
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>Vulnerabilities</Text>
-      <Text fontSize={'l'}>
-        One of the possible vulnerabilities is that the device uses low power bluetooth. This means that the device has
-        a bigger bluetooth range. Normally the range of bluetooth devices is very limited and a possible attacker would
-        need to be very close to the device to pick up any bluetooth communication. with low power bluetooth this range
-        increases significantly. This means that a possible attacker can read the bluetooth traffic from a larger range
-        and attack without being suspicious.
-      </Text>
-      <Text fontSize="l" fontWeight="bold">
-        Insecure Default Settings
-      </Text>
-      <Text fontSize="l">
-        The Lock also has a standard password that is not required to be changed and limited requirements to the
-        strength of this password. Meaning that if this standard password is known by attackers, they can access the
-        lock easily.
-      </Text>
-      <Text fontSize="l" fontWeight="bold">
-        Fix:
-      </Text>
-      <Text fontSize="l">
-        force the user to create a password at device setup, set clear and secure password requirements. Including but
-        not limited to the following At least 8 combinations with a possibility of more inputs like a number sequence.
-      </Text>
-      <Text fontSize="l" fontWeight="bold">
-        Insecure Communication
-      </Text>
-      <Text fontSize="l">
-        Research from a third party resulted in 75% of the low energy bluetooth devices being vulnerable in the way that
-        they send their user credentials in plain text instead of using a form of encryption.
-      </Text>
-      <br />
-      <Image
-        src={'/fontys-intersect-2021/assets/images/BTLockCommunication.png'}
-        alt="test"
-        h={'30%'}
-        w={'30%'}
-      />
-      <Text fontSize="l">Figure 1. Master Lock components and their communication (CS Kent)</Text>
-      <Text fontSize="l" fontWeight="bold">
-        Fix:
-      </Text>
-      <Text fontSize="l">Use a form of encryption.</Text>
-      <br />
-      <Text fontSize="xl">
-        Best practices
-      </Text>
-      <Text fontSize="l">
-        For bluetooth padlocks we found that the communication between the padlock and the application on the phone
-        should be encrypted. This will prevent plain text transmissions which will contain user credentials, hereby
-        making the “man in the middle” attack obsolete.
-      </Text>
-      <br />
-      <Text fontSize="xl">
-          conclusion
-      </Text>
-      <Text fontSize="l">
-        
-      </Text>
-    </Container>
-  </Box>
+export const SolarEdge = () => (
+    <Box w={'100%'} alignItems="center">
+        <Container maxW={['100%', '80%']} p={4}>
+            <Text fontSize="3xl"> Solar Edge Case</Text>
+            <br/>
+            <Text fontSize="xl"> Introduction </Text>
+            <Text fontSize={'l'}>
+                This pentest is about the solaredge inverter that is connected to the solarpanels that are located at
+                the house of Rick Simons. We chose this as a case because more and more homes nowadays have solar panels
+                that are connected to a smart inverter that exchanges its data with a monitoring portal. We wanted to
+                know how secure these IoT inverters are and how they communicate with the home server.
+
+                During our research we looked at the connected devices to the router at Rick's home
+                to find out what Ip address and mac addresses the SolarEdge panels have. This was done by going to the
+                connected devices list
+                and manually unplugging the inverter from the network. The inverter than disappeared from the list of
+                connected devices, after reconnecting the inverter I could then deduce which Ip and mac address belonged
+                to the inverter. Afterwards a port scan was executed on the found Ips. Most of the found ports were
+                filtered, which meant they were blocked in some way shape or form.
+
+            </Text>
+            <br/>
+            <Text fontSize={'xl'}>Table of Contents</Text>
+            <UnorderedList>
+                <ListItem>Strengths</ListItem>
+                <ListItem>Conclusion</ListItem>
+            </UnorderedList>
+            <br/>
+            <Text fontSize={'xl'}>Strengths</Text>
+            <Text fontSize={'ll'}>
+                After our findings we can only conclude that the SolarEdge inverter is in some way secured and
+                doesn’t show any data being send to intercept. Also the inverter itself has some implementation of a
+                firewall that blocks NMAP from properly scanning and displaying open ports.
+
+            </Text>
+            <br/>
+            <Text fontSize="xl">
+                Conclusion
+            </Text>
+            <Text fontSize="l">
+                SolarEdge made an interesting platform that uses a lot of good practices.
+                This results in a strong environment that is because of its complexity, not interesting to hack.
+                </Text>
+        </Container>
+    </Box>
 );
