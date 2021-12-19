@@ -13,7 +13,7 @@ import {
 export const SplitDevelopment = () => (
   <Box w={"100%"} alignItems="center">
     <Container maxW={["100%", "80%"]} p={4}>
-      <Text fontSize="3xl"> Input Validation </Text>
+      <Text fontSize="3xl"> Split development and production environments </Text>
       <Text fontSize={"l"}>
         When developing a system, the developers use tools to make it easier.
         These tools and options should be removed before shipping everything to

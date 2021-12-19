@@ -20,6 +20,7 @@ import { Password } from "./Pages/Owasp/passwords";
 import { OwaspHome } from "./Pages/Owasp/top10home";
 import { Monitoring } from "./Pages/BestPractices/monitoring";
 import { SmartLockBT } from "./Pages/Cases/smartLockBT";
+
 import {Network} from "./Pages/Owasp/insecurenetwork";
 import {Interfaces} from "./Pages/Owasp/insecureinterfaces";
 import {Update} from "./Pages/Owasp/lackofupdate";
@@ -29,6 +30,10 @@ import {Storage} from "./Pages/Owasp/insecuredatatransferandstorage";
 import {Management} from "./Pages/Owasp/lackofmanagement";
 import {Settings} from "./Pages/Owasp/insecuredefaultsettings";
 import {Physical} from "./Pages/Owasp/lackofphysicalhardening";
+import { SmartLock } from "./Pages/Cases/smartLock";
+import { BoschSiemens } from "./Pages/Cases/boschSiemens";
+import { GooveySmartTemp } from "./Pages/Cases/GooveySmartTemp";
+
 
 class Router extends Component {
   render() {
@@ -40,6 +45,9 @@ class Router extends Component {
           <Route path="/" exact component={Homepage} />
           <Route path="/case/wled" exact component={Wled} />
           <Route path="/case/smartlockbt" exact component={SmartLockBT} />
+          <Route path="/case/smartlock" exact component={SmartLock} />
+          <Route path="/case/boschsiemens" exact component={BoschSiemens} />
+          <Route path="/case/gooveysmarttemp" exact component={GooveySmartTemp} />
           <Route path="/owasp/top" exact component={OwaspHome} />
           <Route path="/owasp/top/1" exact component={Password} />
           <Route path="/owasp/top/2" exact component={Network} />
