@@ -37,7 +37,7 @@ export const BoschSiemens = () => (
       For example when I connect to the home connect servers it uses tls :
       </Text>
       <Image
-        src={'/fontys-intersect-2021/assets/images/BoschSiemenswireshark1.png'}
+        src={'/fontys-intersect-2021/assets/images/BoschSiemensWireshark1.png'}
         alt="test"
         h={'30%'}
         w={'30%'}
@@ -49,7 +49,7 @@ export const BoschSiemens = () => (
       also all the data is encrypted :
       </Text>
       <Image
-        src={'/fontys-intersect-2021/assets/images/BoschSiemenswireshark2.png'}
+        src={'/fontys-intersect-2021/assets/images/BoschSiemensWireshark2.png'}
         alt="test"
         h={'30%'}
         w={'30%'}
