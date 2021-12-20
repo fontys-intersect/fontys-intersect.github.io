@@ -34,6 +34,7 @@ import { SmartLock } from "./Pages/Cases/smartLock";
 import { BoschSiemens } from "./Pages/Cases/boschSiemens";
 import { GooveySmartTemp } from "./Pages/Cases/GooveySmartTemp";
 import {SolarEdge} from "./Pages/Cases/solaredge";
+import {Printer} from "./Pages/Cases/printer";
 
 
 class Router extends Component {
@@ -50,6 +51,7 @@ class Router extends Component {
           <Route path="/case/boschsiemens" exact component={BoschSiemens} />
           <Route path="/case/gooveysmarttemp" exact component={GooveySmartTemp} />
           <Route path="/case/solaredge" exact component={SolarEdge} />
+          <Route path="/case/printer" exact component={Printer} />
           <Route path="/owasp/top" exact component={OwaspHome} />
           <Route path="/owasp/top/1" exact component={Password} />
           <Route path="/owasp/top/2" exact component={Network} />

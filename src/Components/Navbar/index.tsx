@@ -147,7 +147,7 @@ export default function Navbar() {
                 <MenuItem as="a" href="/fontys-intersect-2021/#/case/boschsiemens">Bosch Siemens</MenuItem>
                 <MenuItem as="a" href="/fontys-intersect-2021/#/case/smartlock">Smart Lock Biometric</MenuItem>
                 <MenuItem as="a" href="/fontys-intersect-2021/#/case/gooveysmarttemp">Goovey Smart Temp</MenuItem>
-                <MenuItem as="a" href="/">HP Printer</MenuItem>
+                <MenuItem as="a" href="/fontys-intersect-2021/#/case/printer">HP Printer</MenuItem>
                 <MenuItem as="a" href="/fontys-intersect-2021/#/case/smartlockbt">
                   Smart Lock Bluetooth
                 </MenuItem>
