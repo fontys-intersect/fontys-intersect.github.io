@@ -35,6 +35,9 @@ import { BoschSiemens } from "./Pages/Cases/boschSiemens";
 import { GooveySmartTemp } from "./Pages/Cases/GooveySmartTemp";
 import {SolarEdge} from "./Pages/Cases/solaredge";
 import {Printer} from "./Pages/Cases/printer";
+import {Article} from "./Pages/Articles/articlehome";
+import {WLEDArticle} from "./Pages/Articles/wledarticle";
+import {SecureArticle} from "./Pages/Articles/articlesecure";
 
 
 class Router extends Component {
@@ -44,6 +47,9 @@ class Router extends Component {
         <Navbar />
         {/* <Header /> */}
         <Switch>
+
+
+
           <Route path="/" exact component={Homepage} />
           <Route path="/case/wled" exact component={Wled} />
           <Route path="/case/smartlockbt" exact component={SmartLockBT} />
@@ -63,6 +69,9 @@ class Router extends Component {
           <Route path="/owasp/top/8" exact component={Management} />
           <Route path="/owasp/top/9" exact component={Settings} />
           <Route path="/owasp/top/10" exact component={Physical} />
+          <Route path="/article/home" exact component={Article} />
+          <Route path="/article/wled" exact component={WLEDArticle} />
+          <Route path="/article/network" exact component={SecureArticle} />
           <Route path="/bestpractices" exact component={BestPractices} />
           <Route
             path="/bestpractices/authentication"

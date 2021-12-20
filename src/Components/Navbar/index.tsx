@@ -91,6 +91,7 @@ export default function Navbar() {
               <MenuItem as="a" href="/fontys-intersect-2021/#/owasp/top">
                   OWASP
                 </MenuItem>
+                <MenuItem as="a" href="/fontys-intersect-2021/#/article/home"> Articles</MenuItem>
                 <MenuItem as="a" href="/fontys-intersect-2021/#/case/wled">
                   IoT test tooling
                 </MenuItem>
