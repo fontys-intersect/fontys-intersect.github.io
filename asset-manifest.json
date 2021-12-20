@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/fontys-intersect-2021/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/fontys-intersect-2021/static/js/main.107bf0c5.chunk.js",
-    "main.js.map": "/fontys-intersect-2021/static/js/main.107bf0c5.chunk.js.map",
+    "main.js": "/fontys-intersect-2021/static/js/main.2ccba0cc.chunk.js",
+    "main.js.map": "/fontys-intersect-2021/static/js/main.2ccba0cc.chunk.js.map",
     "runtime-main.js": "/fontys-intersect-2021/static/js/runtime-main.41f8ff8d.js",
     "runtime-main.js.map": "/fontys-intersect-2021/static/js/runtime-main.41f8ff8d.js.map",
-    "static/js/2.07179c8a.chunk.js": "/fontys-intersect-2021/static/js/2.07179c8a.chunk.js",
-    "static/js/2.07179c8a.chunk.js.map": "/fontys-intersect-2021/static/js/2.07179c8a.chunk.js.map",
+    "static/js/2.5b67e491.chunk.js": "/fontys-intersect-2021/static/js/2.5b67e491.chunk.js",
+    "static/js/2.5b67e491.chunk.js.map": "/fontys-intersect-2021/static/js/2.5b67e491.chunk.js.map",
     "static/js/3.6689b434.chunk.js": "/fontys-intersect-2021/static/js/3.6689b434.chunk.js",
     "static/js/3.6689b434.chunk.js.map": "/fontys-intersect-2021/static/js/3.6689b434.chunk.js.map",
     "index.html": "/fontys-intersect-2021/index.html",
     "static/css/main.ea1455b2.chunk.css.map": "/fontys-intersect-2021/static/css/main.ea1455b2.chunk.css.map",
-    "static/js/2.07179c8a.chunk.js.LICENSE.txt": "/fontys-intersect-2021/static/js/2.07179c8a.chunk.js.LICENSE.txt"
+    "static/js/2.5b67e491.chunk.js.LICENSE.txt": "/fontys-intersect-2021/static/js/2.5b67e491.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.41f8ff8d.js",
-    "static/js/2.07179c8a.chunk.js",
+    "static/js/2.5b67e491.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.107bf0c5.chunk.js"
+    "static/js/main.2ccba0cc.chunk.js"
   ]
 }
