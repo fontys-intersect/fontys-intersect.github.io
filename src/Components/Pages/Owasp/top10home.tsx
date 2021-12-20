@@ -81,6 +81,12 @@ export const OwaspHome = () => (
               OWASP <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
+          <ListItem>
+            Govindraj Basatwar - Global Business Head. (2021, September 17). Guide to OWASP IoT Top 10 for proactive security. NWO. Retrieved November 11, 2021, from&nbsp;
+            <Link href="https://www.appsealing.com/owasp-iot-top-10/">
+              Appsealing <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
         </UnorderedList>
       </Text>
     </Container>

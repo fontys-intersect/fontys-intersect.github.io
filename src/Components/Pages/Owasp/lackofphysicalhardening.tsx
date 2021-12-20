@@ -35,9 +35,9 @@ export const Physical = () => (
             https://www.dcypher.nl/en/intersect
           </ListItem> */}
                     <ListItem>
-                        About. (z.d.). NWO. Geraadpleegd op 10 december 2020, van&nbsp;
-                        <Link href="https://www.nwo.nl/en/about-nwo">
-                            About nwo <ExternalLinkIcon     mx="2px" />
+                        Govindraj Basatwar - Global Business Head. (2021, September 17). Guide to OWASP IoT Top 10 for proactive security. NWO. Retrieved November 11, 2021, from&nbsp;
+                        <Link href="https://www.appsealing.com/owasp-iot-top-10/">
+                            Appsealing <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                 </UnorderedList>

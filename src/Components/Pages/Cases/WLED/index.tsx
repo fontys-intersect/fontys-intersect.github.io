@@ -2,7 +2,7 @@ import {ExternalLinkIcon} from "@chakra-ui/icons";
 import {Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link} from "@chakra-ui/react";
 
 export const Wled = () => (
-    <Box w={"100%"} alignItems="center">
+    <Box w={"100%"} alignItems="center" mb={"20px"}>
         <Image
             src={"/fontys-intersect-2021/assets/images/wled_logo.png"}
             alt="test"
