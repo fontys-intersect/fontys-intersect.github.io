@@ -117,8 +117,6 @@ export default function Navbar() {
                 <MenuItem as="a" href="/fontys-intersect-2021/#/bestpractices">
                   Overview
                 </MenuItem>
-                <MenuItem as="a" href="/">Common exploits</MenuItem>
-                <MenuItem as="a" href="/">Mitigation techniques</MenuItem>
               </MenuList>
             </Menu>
             </HStack>
