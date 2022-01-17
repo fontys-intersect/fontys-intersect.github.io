@@ -21,6 +21,25 @@ import { OwaspHome } from "./Pages/Owasp/top10home";
 import { Monitoring } from "./Pages/BestPractices/monitoring";
 import { SmartLockBT } from "./Pages/Cases/smartLockBT";
 
+import {Network} from "./Pages/Owasp/insecurenetwork";
+import {Interfaces} from "./Pages/Owasp/insecureinterfaces";
+import {Update} from "./Pages/Owasp/lackofupdate";
+import {Outdated} from "./Pages/Owasp/Insecureoroutdatedcomponents";
+import {Privacy} from "./Pages/Owasp/insufficientprivacyprotection";
+import {Storage} from "./Pages/Owasp/insecuredatatransferandstorage";
+import {Management} from "./Pages/Owasp/lackofmanagement";
+import {Settings} from "./Pages/Owasp/insecuredefaultsettings";
+import {Physical} from "./Pages/Owasp/lackofphysicalhardening";
+import { SmartLock } from "./Pages/Cases/smartLock";
+import { BoschSiemens } from "./Pages/Cases/boschSiemens";
+import { GooveySmartTemp } from "./Pages/Cases/GooveySmartTemp";
+import {SolarEdge} from "./Pages/Cases/solaredge";
+import {Printer} from "./Pages/Cases/printer";
+import {Article} from "./Pages/Articles/articlehome";
+import {WLEDArticle} from "./Pages/Articles/wledarticle";
+import {SecureArticle} from "./Pages/Articles/articlesecure";
+
+
 class Router extends Component {
   render() {
     return (
@@ -28,11 +47,31 @@ class Router extends Component {
         <Navbar />
         {/* <Header /> */}
         <Switch>
+
+
+
           <Route path="/" exact component={Homepage} />
           <Route path="/case/wled" exact component={Wled} />
           <Route path="/case/smartlockbt" exact component={SmartLockBT} />
+          <Route path="/case/smartlock" exact component={SmartLock} />
+          <Route path="/case/boschsiemens" exact component={BoschSiemens} />
+          <Route path="/case/gooveysmarttemp" exact component={GooveySmartTemp} />
+          <Route path="/case/solaredge" exact component={SolarEdge} />
+          <Route path="/case/printer" exact component={Printer} />
           <Route path="/owasp/top" exact component={OwaspHome} />
           <Route path="/owasp/top/1" exact component={Password} />
+          <Route path="/owasp/top/2" exact component={Network} />
+          <Route path="/owasp/top/3" exact component={Interfaces} />
+          <Route path="/owasp/top/4" exact component={Update} />
+          <Route path="/owasp/top/5" exact component={Outdated} />
+          <Route path="/owasp/top/6" exact component={Privacy} />
+          <Route path="/owasp/top/7" exact component={Storage} />
+          <Route path="/owasp/top/8" exact component={Management} />
+          <Route path="/owasp/top/9" exact component={Settings} />
+          <Route path="/owasp/top/10" exact component={Physical} />
+          <Route path="/article/home" exact component={Article} />
+          <Route path="/article/wled" exact component={WLEDArticle} />
+          <Route path="/article/network" exact component={SecureArticle} />
           <Route path="/bestpractices" exact component={BestPractices} />
           <Route
             path="/bestpractices/authentication"

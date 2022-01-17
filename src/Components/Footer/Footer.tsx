@@ -19,9 +19,11 @@ import {
         bgColor="gray.800"
         color="white.600"
         flexDir='column'
-        left='auto'
+        //left='auto'
         bottom='0'
         w="100%"
+        mt={"20px"}
+        pos={"fixed"}
         marginTop={"auto"}
       >
         <Container as={Stack} maxW="8xl">
@@ -88,27 +90,10 @@ import {
                 About us
               </Link>
               <Link variant="footer" color="white" href="#">
-                Test
+                #
               </Link>
               <Link variant="footer" color="white" href="#">
-                Test
-              </Link>
-            </Stack>
-            <Stack align="flex-start">
-              <Text fontSize="2xl" fontWeight="bold" color="white" mb={2}>
-                Cyber
-              </Text>
-              <Link variant="footer" color="white" href="#">
-                Test
-              </Link>
-              <Link variant="footer" color="white" href="#">
-                Test
-              </Link>
-              <Link variant="footer" color="white" href="#">
-                Test
-              </Link>
-              <Link variant="footer" color="white" href="#">
-                Test
+                #
               </Link>
             </Stack>
           </SimpleGrid>

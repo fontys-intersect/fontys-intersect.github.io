@@ -38,31 +38,31 @@ export const OwaspHome = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="">Insecure Network Services</Link>
+            <Link href="/fontys-intersect-2021/#/owasp/top/2">Insecure Network Services</Link>
           </ListItem>
           <ListItem>
-            <Link href="">Insecure Ecosystem Interfaces</Link>
+            <Link href="/fontys-intersect-2021/#/owasp/top/3">Insecure Ecosystem Interfaces</Link>
           </ListItem>
           <ListItem>
-            <Link href="">Lack of Secure Update Mechanism</Link>
+            <Link href="/fontys-intersect-2021/#/owasp/top/4">Lack of Secure Update Mechanism</Link>
           </ListItem>
           <ListItem>
-            <Link href="">Use of Insecure or Outdated Components</Link>
+            <Link href="/fontys-intersect-2021/#/owasp/top/5">Use of Insecure or Outdated Components</Link>
           </ListItem>
           <ListItem>
-            <Link href="">Insufficient Privacy Protection</Link>
+            <Link href="/fontys-intersect-2021/#/owasp/top/6">Insufficient Privacy Protection</Link>
           </ListItem>
           <ListItem>
-            <Link href="">Insecure Data Transfer and Storage</Link>
+            <Link href="/fontys-intersect-2021/#/owasp/top/7">Insecure Data Transfer and Storage</Link>
           </ListItem>
           <ListItem>
-            <Link href="">Lack of Device Management</Link>
+            <Link href="/fontys-intersect-2021/#/owasp/top/8">Lack of Device Management</Link>
           </ListItem>
           <ListItem>
-            <Link href="">Insecure Default Settings</Link>
+            <Link href="/fontys-intersect-2021/#/owasp/top/9">Insecure Default Settings</Link>
           </ListItem>
           <ListItem>
-            <Link href="">Lack of Physical Hardening</Link>
+            <Link href="/fontys-intersect-2021/#/owasp/top/10">Lack of Physical Hardening</Link>
           </ListItem>
         </OrderedList>
       </Text>
@@ -79,6 +79,12 @@ export const OwaspHome = () => (
             OWASP Internet Of Things TOP 10 2018. Geraadpleegd op 27 September 2020, van&nbsp;
             <Link href="https://owasp.org/www-pdf-archive/OWASP-IoT-Top-10-2018-final.pdf">
               OWASP <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            Govindraj Basatwar - Global Business Head. (2021, September 17). Guide to OWASP IoT Top 10 for proactive security. NWO. Retrieved November 11, 2021, from&nbsp;
+            <Link href="https://www.appsealing.com/owasp-iot-top-10/">
+              Appsealing <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
         </UnorderedList>
