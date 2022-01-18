@@ -110,31 +110,18 @@ export default function Navbar() {
                   </MenuItem>
                 </MenuList>
               </Menu>
-              <Menu>
-                <MenuButton
-                  // as={Button}
-                  rounded={"md"}
-                  variant={"link"}
-                  cursor={"pointer"}
-                  minW={0}
-                  px={2}
-                  py={1}
-                  _hover={{
-                    textDecoration: "none",
-                    bg: useColorModeValue("gray.200", "gray.700"),
-                  }}
-                >
-                  Best practices
-                </MenuButton>
-                <MenuList>
-                  <MenuItem
-                    as="a"
-                    href="/fontys-intersect-2021/#/bestpractices"
-                  >
-                    Overview
-                  </MenuItem>
-                </MenuList>
-              </Menu>
+              <Link
+                px={2}
+                py={1}
+                rounded={"md"}
+                _hover={{
+                  textDecoration: "none",
+                  bg: useColorModeValue("gray.200", "gray.700"),
+                }}
+                href={"/fontys-intersect-2021/#/bestpractices"}
+              >
+                Best Practices
+              </Link>
               <Menu>
                 <MenuButton
                   // as={Button}

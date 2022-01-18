@@ -40,42 +40,42 @@ export const CaseOverview = () => (
 
       <UnorderedList>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/wled" textColor={"blue"}>
             WLED&nbsp;
           </Link>
           (Smart Home)
         </ListItem>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/boschsiemens" textColor={"blue"}>
             Bosch Siemens&nbsp;
           </Link>
           (Smart Home)
         </ListItem>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/smartlock" textColor={"blue"}>
             Smart Lock Biometric&nbsp;
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/gooveysmarttemp" textColor={"blue"}>
             Goovey Smart Temp&nbsp;
           </Link>
           (Smart Home)
         </ListItem>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/printer" textColor={"blue"}>
             HP Printer Jett&nbsp;
           </Link>
           (Smart Office)
         </ListItem>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/smartlockbt" textColor={"blue"}>
             Smart Lock Bluetooth&nbsp;
           </Link>
           (Smart Home)
         </ListItem>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/solaredge" textColor={"blue"}>
             Solar Edge&nbsp;
           </Link>
           (Smart Home)
