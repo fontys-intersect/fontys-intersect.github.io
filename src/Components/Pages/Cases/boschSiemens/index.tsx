@@ -6,10 +6,19 @@ export const BoschSiemens = () => (
     <Container maxW={['100%', '80%']} p={4}>
       <Text fontSize="3xl"> Bosch Siemens Home Connect case</Text>
       <br />
-      <Text fontSize="xl"> Introduction </Text>
+      <Text fontSize={"xl"} fontWeight={"bold"}> Introduction </Text>
       <Text fontSize={'l'}>
       The Bosch Siemens kitchen appliances  are using the Home Connect environment to give notifications and to give commands to these devices. These devices include; oven, a coffee machine and a dishwasher. These can only be controlled via the home connect App.
       </Text>
+      <br />
+      <Text fontSize={"xl"} fontWeight={"bold"}>Table of Contents </Text>
+            <UnorderedList>
+                <ListItem>Case Explanation</ListItem>
+                <ListItem>Strengths</ListItem>
+                <ListItem>Vulnerabilities</ListItem>
+                <ListItem>Possible Fixes</ListItem>
+                <ListItem>Best practices</ListItem>
+            </UnorderedList>
       <br />
       <Text fontSize={'xl'}>Architecture</Text>
       <Image
@@ -29,7 +38,7 @@ export const BoschSiemens = () => (
         <ListItem>Nmap</ListItem>
       </UnorderedList>
       <br />
-      <Text fontSize="xl">
+      <Text fontSize={"xl"} fontWeight={"bold"}>
       Strengths
       </Text>
       <Text fontSize="l">
@@ -58,7 +67,7 @@ export const BoschSiemens = () => (
       And since they are using TLS v1.2 they also use the encryption method with Sha256 giving it an extra hard cipher to crack.
       </Text>
       <br />
-      <Text fontSize="xl">
+      <Text fontSize={"xl"} fontWeight={"bold"}>
       Conclusion
       </Text>
       <Text fontSize="l">
