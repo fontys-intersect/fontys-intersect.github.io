@@ -155,6 +155,6 @@ export const SecData = () => (
           </ListItem>
         </UnorderedList>
       </Text>
-    </Container>
+    </Container><Container h={"200px"}></Container>
   </Box>
 );

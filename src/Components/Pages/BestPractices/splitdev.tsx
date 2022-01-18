@@ -104,5 +104,6 @@ export const SplitDevelopment = () => (
         </UnorderedList>
       </Text>
     </Container>
+    <Container h={"200px"}></Container>
   </Box>
 );

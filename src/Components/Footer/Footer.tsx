@@ -21,8 +21,10 @@ import {
         flexDir='column'
         //left='auto'
         bottom='0'
+        left='0'
+        right='0'
         w="100%"
-        mt={"20px"}
+        mt={"-200px"}
         pos={"fixed"}
         marginTop={"auto"}
       >

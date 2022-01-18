@@ -45,5 +45,6 @@ export const SolarEdge = () => (
                 This results in a strong environment that is because of its complexity, not interesting to hack.
                 </Text>
         </Container>
+        <Container h={"200px"}></Container>
     </Box>
 );

@@ -87,5 +87,6 @@ export const SmartLockBT = () => (
         
       </Text>
     </Container>
+    <Container h={"200px"}></Container>
   </Box>
 );

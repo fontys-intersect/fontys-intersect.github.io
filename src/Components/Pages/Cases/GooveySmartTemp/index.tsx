@@ -42,5 +42,6 @@ export const GooveySmartTemp = () => (
       because this research is still ongoing it is not possible to make a conclusion now.
       </Text>
     </Container>
+    <Container h={"200px"}></Container>
   </Box>
 );

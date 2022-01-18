@@ -84,5 +84,6 @@ export const PrivacyStandard = () => (
         </UnorderedList>
       </Text>
     </Container>
+    <Container h={"200px"}></Container>
   </Box>
 );
