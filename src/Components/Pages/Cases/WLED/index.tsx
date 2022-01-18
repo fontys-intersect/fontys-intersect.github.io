@@ -41,7 +41,6 @@ export const Wled = () => (
         <ListItem>Possible Fixes</ListItem>
         <ListItem>Best practices</ListItem>
       </UnorderedList>
-
       <br />
       <Text fontSize="l">
         The application was tested according to the cyber kill chain. Testing
