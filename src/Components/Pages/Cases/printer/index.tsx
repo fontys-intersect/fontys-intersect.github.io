@@ -56,7 +56,8 @@ export const Printer = () => (
         data, containing characters that were in the large document. Within this
         screenshot we can see the communication is performed over HTTP, this is
         the result of analyzing the network packages that were analyzed by a
-        zeek instance.
+        zeek instance. Within the second screenshot we can see the device that
+        sent the package and some more information regarding the packages.
       </Text>
       <Image
         src={"/fontys-intersect-2021/assets/images/printer_message_one.png"}
@@ -64,6 +65,14 @@ export const Printer = () => (
         h={"150%"}
         w={"150%"}
       />
+      <br />
+      <Image
+        src={"/fontys-intersect-2021/assets/images/printer_message_two.png"}
+        alt="test"
+        h={"150%"}
+        w={"150%"}
+      />
+      <br />
       <Text fontSize="l" fontWeight="bold">
         Fix:
       </Text>
@@ -90,6 +99,25 @@ export const Printer = () => (
         For the printer we found that the communication between the printer and
         the user device should be encrypted. This will prevent plain text
         transmissions, hereby making the “man in the middle” attack obsolete.
+        The printer sends packages containing plain text information about the
+        sender, this can be prevented with the usage of{" "}
+        <Link
+          textColor={"blue"}
+          href="/fontys-intersect-2021/#/bestpractices/securedata"
+        >
+          secure data transfer and storage
+        </Link>
+        , as these packages can be caught with the use of MitM attacks.
+        Encrypting packages like this will ensure the user's information will
+        not be compromised during the call. Beside the lack of secure data
+        transfer, the system does not require any{" "}
+        <Link
+          href="/fontys-intersect-2021/#/bestpractices/authentication"
+          textColor={"blue"}
+        >
+          authentication
+        </Link>{" "}
+        to allow the user access to the configuration of the printer itself.
       </Text>
       <br />
       <Text fontSize="xl">Conclusion</Text>

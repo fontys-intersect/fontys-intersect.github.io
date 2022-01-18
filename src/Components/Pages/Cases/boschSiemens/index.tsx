@@ -2,7 +2,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons';
 import { Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link } from '@chakra-ui/react';
 
 export const BoschSiemens = () => (
-  <Box w={'100%'} alignItems="center">
+  <Box w={'100%'} alignItems="center" minH={"calc(100vh - 2- 200px"}>
     <Container maxW={['100%', '80%']} p={4}>
       <Text fontSize="3xl"> Bosch Siemens Home Connect case</Text>
       <br />
@@ -15,8 +15,8 @@ export const BoschSiemens = () => (
       <Image
         src={'/fontys-intersect-2021/assets/images/BoschSiemensArchitecture.jpg'}
         alt="test"
-        h={'60%'}
-        w={'60%'}
+        h={'40%'}
+        w={'40%'}
       />
       <Text fontSize={'l'}>
       Here you can see that the smart appliances usually connect to the home connect cloud service from Bosch and Siemens which also allows connections via the app on your phone.
@@ -39,8 +39,8 @@ export const BoschSiemens = () => (
       <Image
         src={'/fontys-intersect-2021/assets/images/BoschSiemensWireshark1.png'}
         alt="test"
-        h={'100%'}
-        w={'100%'}
+        h={'70%'}
+        w={'70%'}
       />
       <Text fontSize="l">
       Every time the client connects to a home connect device it uses tls to <Link textColor={"blue"} href="/bestpractices/authentication">authenticate</Link> the application.
@@ -51,8 +51,8 @@ export const BoschSiemens = () => (
       <Image
         src={'/fontys-intersect-2021/assets/images/BoschSiemensWireshark2.png'}
         alt="test"
-        h={'100%'}
-        w={'100%'}
+        h={'70%'}
+        w={'70%'}
       />
       <Text fontSize="l">
       And since they are using TLS v1.2 they also use the encryption method with Sha256 giving it an extra hard cipher to crack.

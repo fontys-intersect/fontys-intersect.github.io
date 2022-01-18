@@ -13,8 +13,8 @@ import {
     return (
       <Box
         as="footer"
-        pt={6}
-        pb={6}
+        pt={3}
+        pb={3}
         px={[4, 10]}
         bgColor="gray.800"
         color="white.600"
