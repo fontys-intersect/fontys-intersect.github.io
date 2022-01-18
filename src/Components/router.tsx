@@ -31,7 +31,7 @@ import {Management} from "./Pages/Owasp/lackofmanagement";
 import {Settings} from "./Pages/Owasp/insecuredefaultsettings";
 import {Physical} from "./Pages/Owasp/lackofphysicalhardening";
 import { SmartLock } from "./Pages/Cases/smartLock";
-import { BoschSiemens } from "./Pages/Cases/BoschSiemens";
+import { BoschSiemens } from "./Pages/Cases/boschSiemens";
 import { GooveySmartTemp } from "./Pages/Cases/GooveySmartTemp";
 import {SolarEdge} from "./Pages/Cases/solaredge";
 import {Printer} from "./Pages/Cases/printer";
