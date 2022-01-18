@@ -38,6 +38,7 @@ import {Printer} from "./Pages/Cases/printer";
 import {Article} from "./Pages/Articles/articlehome";
 import {WLEDArticle} from "./Pages/Articles/wledarticle";
 import {SecureArticle} from "./Pages/Articles/articlesecure";
+import {AirQuality} from "./Pages/Cases/airqualitySensor";
 
 
 class Router extends Component {
@@ -58,6 +59,7 @@ class Router extends Component {
           <Route path="/case/gooveysmarttemp" exact component={GooveySmartTemp} />
           <Route path="/case/solaredge" exact component={SolarEdge} />
           <Route path="/case/printer" exact component={Printer} />
+          <Route path="/case/airquality" exact component={AirQuality} />
           <Route path="/owasp/top" exact component={OwaspHome} />
           <Route path="/owasp/top/1" exact component={Password} />
           <Route path="/owasp/top/2" exact component={Network} />

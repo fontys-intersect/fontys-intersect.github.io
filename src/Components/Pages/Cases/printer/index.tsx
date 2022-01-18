@@ -22,20 +22,21 @@ export const Printer = () => (
             <br/>
             <Text fontSize={'xl'}>Table of Contents</Text>
             <UnorderedList>
-                <ListItem>Strengths</ListItem>
-                <ListItem>Vulnerabilities</ListItem>
-                <ListItem>Best Practises</ListItem>
-                <ListItem>Conclusion</ListItem>
+
+                <ListItem> <Link href={"/fontys-intersect-2021/#/case/printer/#Strengths"}>Strengths</Link></ListItem>
+                <ListItem> <Link href={"/fontys-intersect-2021/#/case/printer/#Vulnerabilities"}>Vulnerabilities</Link> </ListItem>
+                <ListItem><Link href={"/fontys-intersect-2021/#/case/printer/#BestPractices"}>Best Practices</Link> </ListItem>
+                <ListItem><Link href={"/fontys-intersect-2021/#/case/printer/#Conclusion"}>Conclusion</Link></ListItem>
             </UnorderedList>
             <br/>
-            <Text fontSize={'xl'}>Strengths</Text>
+            <Text id={"Strengths"} fontSize={'xl'}>Strengths</Text>
             <Text fontSize={'ll'}>
                 During our research we weren't able to find many useful packets regarding the communication from the
                 user's device to the
                 printer.
             </Text>
             <br/>
-            <Text fontSize={'xl'}>Vulnerabilities</Text>
+            <Text id={"Vulnerabilities"} fontSize={'xl'}>Vulnerabilities</Text>
             <Text fontSize="l" fontWeight="bold">
                 Insecure Communication
             </Text>
@@ -67,7 +68,7 @@ export const Printer = () => (
                 Force the user to authenticate properly (reason)
             </Text>
 
-            <Text fontSize="xl">
+            <Text id={"BestPractices"} fontSize="xl">
                 Best practices
             </Text>
             <Text fontSize="l">
@@ -76,7 +77,7 @@ export const Printer = () => (
                 making the “man in the middle” attack obsolete.
             </Text>
             <br/>
-            <Text fontSize="xl">
+            <Text id={"Conclusion"} fontSize="xl">
                 Conclusion
             </Text>
             <Text fontSize="l">
