@@ -55,5 +55,6 @@ export const SmartWatch = () => (
 
             Always set the automatic update option on the phone smartwatch app to “ON”, making sure the user does not have to think about whether he has to update his watch or not. And if the user has one, link the account to the smartwatch app on the phone. This way the user can erase their data, or transfer their data to a new watch safely. </Text>
     </Container>
+    <Container h={"200px"}></Container>
   </Box>
 );
