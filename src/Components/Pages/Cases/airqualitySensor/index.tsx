@@ -103,5 +103,6 @@ export const AirQuality = () => (
                 practices can be read on their respective pages.
             </Text>
         </Container>
+        <Container h={"200px"}></Container>
     </Box>
 );

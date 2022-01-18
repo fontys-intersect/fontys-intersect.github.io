@@ -64,5 +64,6 @@ export const SmartWatch = () => (
             The best practices found in this case are <Link href={"/fontys-intersect-2021/#/case/printer/#Strengths"}>split development and production</Link>, authentication authorization, errorhandling, inputvalidation and secretmanagement more about these best practices can be read on their respective pages.
         </Text>
     </Container>
+    <Container h={"200px"}></Container>
   </Box>
 );

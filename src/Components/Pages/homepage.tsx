@@ -82,5 +82,6 @@ export const Homepage = () => (
                 </UnorderedList>
             </Text>
         </Container>
+        <Container h={"200px"}></Container>
     </Box>
 );
