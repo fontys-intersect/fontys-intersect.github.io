@@ -31,7 +31,7 @@ import {Management} from "./Pages/Owasp/lackofmanagement";
 import {Settings} from "./Pages/Owasp/insecuredefaultsettings";
 import {Physical} from "./Pages/Owasp/lackofphysicalhardening";
 import { SmartLock } from "./Pages/Cases/smartLock";
-import { BoschSiemens } from "./Pages/Cases/boschSiemens";
+import { BoschSiemens } from "./Pages/Cases/BoschSiemens";
 import { GooveySmartTemp } from "./Pages/Cases/GooveySmartTemp";
 import {SolarEdge} from "./Pages/Cases/solaredge";
 import {Printer} from "./Pages/Cases/printer";
@@ -39,6 +39,7 @@ import {Article} from "./Pages/Articles/articlehome";
 import {WLEDArticle} from "./Pages/Articles/wledarticle";
 import {SecureArticle} from "./Pages/Articles/articlesecure";
 import {AirQuality} from "./Pages/Cases/airqualitySensor";
+import { CaseOverview } from "./Pages/Cases";
 
 
 class Router extends Component {
@@ -60,6 +61,7 @@ class Router extends Component {
           <Route path="/case/solaredge" exact component={SolarEdge} />
           <Route path="/case/printer" exact component={Printer} />
           <Route path="/case/airquality" exact component={AirQuality} />
+          <Route path="/case" exact component={CaseOverview} />
           <Route path="/owasp/top" exact component={OwaspHome} />
           <Route path="/owasp/top/1" exact component={Password} />
           <Route path="/owasp/top/2" exact component={Network} />

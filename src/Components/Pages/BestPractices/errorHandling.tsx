@@ -124,5 +124,6 @@ export const ErrorHandling = () => (
         </UnorderedList>
       </Text>
     </Container>
+    <Container h={"200px"}></Container>
   </Box>
 );

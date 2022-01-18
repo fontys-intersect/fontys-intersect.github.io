@@ -92,5 +92,6 @@ export const SecretManagement = () => (
         </UnorderedList>
       </Text>
     </Container>
+    <Container h={"200px"}></Container>
   </Box>
 );

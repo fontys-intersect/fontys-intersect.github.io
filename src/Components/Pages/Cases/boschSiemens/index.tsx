@@ -15,44 +15,44 @@ export const BoschSiemens = () => (
       <Image
         src={'/fontys-intersect-2021/assets/images/BoschSiemensArchitecture.jpg'}
         alt="test"
-        h={'30%'}
-        w={'30%'}
+        h={'60%'}
+        w={'60%'}
       />
       <Text fontSize={'l'}>
       Here you can see that the smart appliances usually connect to the home connect cloud service from Bosch and Siemens which also allows connections via the app on your phone.
       Even when I am in the same network with these devices it prefers using the cloud service. In documentation and field research it was found that the “direct connection” is only used in the case of downtime on the cloud service end.
       </Text>
       <br />
-      <Text fontSize={'l'} fontWeight={"bold"}>Tools</Text>
+      <Text fontSize={'l'} fontWeight={"bold"}>Tools used</Text>
       <UnorderedList>
-        <ListItem>Wireshark</ListItem>
-        <ListItem>Nmap</ListItem>
+        <ListItem><Link href="/">Wireshark</Link></ListItem>
+        <ListItem><Link href="/">Nmap</Link></ListItem>
       </UnorderedList>
       <br />
       <Text fontSize="xl">
       Strengths
       </Text>
       <Text fontSize="l">
-      Home connect services are very strong in the manner of secure data transfer and storage.
+      Home connect services are very strong in the manner of <Link textColor={"blue"} href="/bestpractices/securedata">secure data transfer</Link> and storage.
       For example when I connect to the home connect servers it uses tls :
       </Text>
       <Image
-        src={'/fontys-intersect-2021/assets/images/BoschSiemenswireshark1.png'}
+        src={'/fontys-intersect-2021/assets/images/BoschSiemensWireshark1.png'}
         alt="test"
-        h={'30%'}
-        w={'30%'}
+        h={'100%'}
+        w={'100%'}
       />
       <Text fontSize="l">
-      Every time the client connects to a home connect device it uses tls to authenticate the application.
+      Every time the client connects to a home connect device it uses tls to <Link textColor={"blue"} href="/bestpractices/authentication">authenticate</Link> the application.
       </Text>
       <Text fontSize="l">
       also all the data is encrypted :
       </Text>
       <Image
-        src={'/fontys-intersect-2021/assets/images/BoschSiemenswireshark2.png'}
+        src={'/fontys-intersect-2021/assets/images/BoschSiemensWireshark2.png'}
         alt="test"
-        h={'30%'}
-        w={'30%'}
+        h={'100%'}
+        w={'100%'}
       />
       <Text fontSize="l">
       And since they are using TLS v1.2 they also use the encryption method with Sha256 giving it an extra hard cipher to crack.
@@ -66,6 +66,8 @@ export const BoschSiemens = () => (
       This results in a strong environment that is because of its complexity, not interesting to hack.
       Furthermore, Bosch and Siemens keep their devices up to date by auto updating the software, thereby outrunning the possible vulnerabilities.
       </Text>
+      <br />
     </Container>
+    <Container h={"200px"}></Container>
   </Box>
 );
