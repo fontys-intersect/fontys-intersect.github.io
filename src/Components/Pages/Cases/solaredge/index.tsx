@@ -6,7 +6,7 @@ export const SolarEdge = () => (
         <Container maxW={['100%', '80%']} p={4}>
             <Text fontSize="3xl"> Solar Edge Case</Text>
             <br/>
-            <Text fontSize="xl"> Introduction </Text>
+            <Text fontSize="xl" fontWeight={"bold"}> Introduction </Text>
             <Text fontSize={'l'}>
                 This pentest is about the solaredge inverter that is connected to the solarpanels that are located at
                 the house of Rick Simons. We chose this as a case because more and more homes nowadays have solar panels
@@ -23,13 +23,13 @@ export const SolarEdge = () => (
 
             </Text>
             <br/>
-            <Text fontSize={'xl'}>Table of Contents</Text>
+            <Text fontSize={'xl'} fontWeight={"bold"}>Table of Contents</Text>
             <UnorderedList>
                 <ListItem>Strengths</ListItem>
                 <ListItem>Conclusion</ListItem>
             </UnorderedList>
             <br/>
-            <Text fontSize={'xl'}>Strengths</Text>
+            <Text fontSize={'xl'} fontWeight={"bold"}>Strengths</Text>
             <Text fontSize={'ll'}>
                 After our findings we can only conclude that the SolarEdge inverter is in some way secured and
                 doesn’t show any data being send to intercept. Also the inverter itself has some implementation of a
@@ -37,7 +37,7 @@ export const SolarEdge = () => (
 
             </Text>
             <br/>
-            <Text fontSize="xl">
+            <Text fontSize="xl" fontWeight={"bold"}>
                 Conclusion
             </Text>
             <Text fontSize="l">

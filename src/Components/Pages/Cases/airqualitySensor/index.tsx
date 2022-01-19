@@ -31,13 +31,13 @@ export const AirQuality = () => (
                 are:
 
                 <UnorderedList>
-                    <ListItem> <Link href={"/fontys-intersect-2021/#/case/printer/#Strengths"}>Burp
+                    <ListItem> <Link textColor={"blue"} href={"https://portswigger.net/burp"}>Burp
                         Suite</Link></ListItem>
-                    <ListItem> <Link href={"/fontys-intersect-2021/#/case/printer/#Vulnerabilities"}>Nmap</Link>
+                    <ListItem> <Link textColor={"blue"} href={"https://nmap.org/"}>Nmap</Link>
                     </ListItem>
-                    <ListItem><Link href={"/fontys-intersect-2021/#/case/printer/#BestPractices"}>Postman</Link>
+                    <ListItem><Link textColor={"blue"} href={"https://www.postman.com/"}>Postman</Link>
                     </ListItem>
-                    <ListItem><Link href={"/fontys-intersect-2021/#/case/printer/#Conclusion"}>Security
+                    <ListItem><Link textColor={"blue"} href={"https://www.securityheaders.com/"}>Security
                         headers</Link> check</ListItem>
                 </UnorderedList>
                 During the pentest, the research was kept in mind according to known IoT vulnerabilities.</Text>
@@ -97,9 +97,14 @@ export const AirQuality = () => (
             <br/>
             <Text id={"Bestpractices"} fontSize={'xl'}>Best practices</Text>
             <Text fontSize="l">
-                The best practices found in this case are <Link
-                href={"/fontys-intersect-2021/#/case/printer/#Strengths"}>split development and production</Link>,
-                authentication authorization, errorhandling, inputvalidation and secretmanagement more about these best
+                The best practices found in this case are <Link textColor={"blue"}
+                href={"/fontys-intersect-2021/#/bestpractices/splitdev"}>split development and production</Link>,
+                <Link textColor={"blue"}
+                    href={"/fontys-intersect-2021/#/bestpractices/authentication"}> authentication</Link>  <Link textColor={"blue"}
+                href={"/fontys-intersect-2021/#/bestpractices/authorization"}>authorization</Link>, <Link textColor={"blue"}
+                href={"/fontys-intersect-2021/#/bestpractices/errorhandling"}>error handling</Link>, <Link textColor={"blue"}
+                href={"/fontys-intersect-2021/#/bestpractices/inputvalidation"}>input validation</Link> and <Link textColor={"blue"}
+                href={"/fontys-intersect-2021/#/bestpractices/secretmanagement"}>secret management</Link> more about these best
                 practices can be read on their respective pages.
             </Text>
         </Container>

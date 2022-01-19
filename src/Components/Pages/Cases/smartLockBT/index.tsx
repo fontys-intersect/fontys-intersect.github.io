@@ -6,29 +6,29 @@ export const SmartLockBT = () => (
     <Container maxW={['100%', '80%']} p={4}>
       <Text fontSize="3xl"> Smart Lock Bluetooth case</Text>
       <br />
-      <Text fontSize="xl"> Introduction </Text>
+      <Text fontSize="xl" fontWeight={"bold"}> Introduction </Text>
       <Text fontSize={'l'}>
         The Master Lock Bluetooth padlock is a Bluetooth enabled padlock which comes in two form factors for indoor and
         outdoor usage. It has the look and feel of an ordinary padlock but instead of a keyway, it has a 4-directional
         pad that serves as the input device for the override mechanism.
       </Text>
       <br />
-      <Text fontSize={'xl'}>Table of Contents</Text>
+      <Text fontSize={'xl'} fontWeight={"bold"}>Table of Contents</Text>
       <UnorderedList>
-        <ListItem>Strenghts</ListItem>
+        <ListItem>Strengths</ListItem>
         <ListItem>Vulnerabilities</ListItem>
         <ListItem>Best Practises</ListItem>
         <ListItem>Conclusion</ListItem>
       </UnorderedList>
       <br />
-      <Text fontSize={'xl'}>Strenghts</Text>
+      <Text fontSize={'xl'} fontWeight={"bold"}>Strengths</Text>
       <Text fontSize={'ll'}>
         During our research we weren't able to read any of the data communications from the device to the mobile
         application, through bluetooth. For the bluetooth communication we used bluetooth scanning on a kali linux
         machine. Both of these methods returned no usable results.
       </Text>
       <br />
-      <Text fontSize={'xl'}>Vulnerabilities</Text>
+      <Text fontSize={'xl'} fontWeight={"bold"}>Vulnerabilities</Text>
       <Text fontSize={'l'}>
         One of the possible vulnerabilities is that the device uses low power bluetooth. This means that the device has
         a bigger bluetooth range. Normally the range of bluetooth devices is very limited and a possible attacker would
@@ -71,17 +71,17 @@ export const SmartLockBT = () => (
       </Text>
       <Text fontSize="l">Use a form of encryption.</Text>
       <br />
-      <Text fontSize="xl">
+      <Text fontSize="xl" fontWeight={"bold"}>
         Best practices
       </Text>
       <Text fontSize="l">
         For bluetooth padlocks we found that the communication between the padlock and the application on the phone
-        should be encrypted. This will prevent plain text transmissions which will contain user credentials, hereby
+        should be <Link color={"blue"} href={"/fontys-intersect-2021/#/bestpractices/securedata"}>encrypted</Link>. This will prevent plain text transmissions which will contain user credentials, hereby
         making the “man in the middle” attack obsolete.
       </Text>
       <br />
-      <Text fontSize="xl">
-          conclusion
+      <Text fontSize="xl" fontWeight={"bold"}>
+          Conclusion
       </Text>
       <Text fontSize="l">
         

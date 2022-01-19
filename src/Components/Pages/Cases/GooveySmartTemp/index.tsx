@@ -13,9 +13,9 @@ import {
 export const GooveySmartTemp = () => (
   <Box w={"100%"} alignItems="center">
     <Container maxW={["100%", "80%"]} p={4}>
-      <Text fontSize="3xl">Govee h505 thermostat.</Text>
+      <Text fontSize="3xl">Govee H505 Thermostat.</Text>
       <br />
-      <Text fontSize="xl"> Introduction </Text>
+      <Text fontSize="xl" fontWeight={"Bold"}> Introduction </Text>
       <Text fontSize={"l"}>
         The Govee h505 thermostat is a small IoT device that can read the room
         temperature and the humidity that's currently present in the room. The
@@ -26,15 +26,15 @@ export const GooveySmartTemp = () => (
         the data is sent every 10 minutes.
       </Text>
       <br />
-      <Text fontSize={"xl"}>Table of Contents</Text>
+      <Text fontSize={"xl"} fontWeight={"Bold"}>Table of Contents</Text>
       <UnorderedList>
-        <ListItem>Strenghts</ListItem>
+        <ListItem>Strengths</ListItem>
         <ListItem>Vulnerabilities</ListItem>
         <ListItem>Best practices</ListItem>
         <ListItem>Conclusion</ListItem>
       </UnorderedList>
       <br />
-      <Text fontSize={"xl"}>Strenghts</Text>
+      <Text fontSize={"xl"} fontWeight={"Bold"}>Strengths</Text>
       <Text fontSize={"l"}>
         During our research we weren't able to read any of the data
         communications from the device to the mobile application, not through
@@ -45,7 +45,7 @@ export const GooveySmartTemp = () => (
         be one of the strengths of the device security.
       </Text>
       <br />
-      <Text fontSize={"xl"}>Vulnerabilities</Text>
+      <Text fontSize={"xl"} fontWeight={"Bold"}>Vulnerabilities</Text>
       <Text fontSize="l">
         One of the possible vulnerabilities is that the device uses low power
         bluetooth. This means that the device has a bigger bluetooth range.
@@ -57,11 +57,11 @@ export const GooveySmartTemp = () => (
         suspicious.
       </Text>
       <br />
-      <Text fontSize="xl">Best practises</Text>
+      <Text fontSize="xl" fontWeight={"Bold"}>Best practices</Text>
       <Text fontSize="l">
         During the research of this product, we noticed the use of{" "}
         <Link
-          href="/fontys-intersect-2021/#/bestpractices/securedata"
+          href="/fontys-intersect-2021/#/bestpractices/securedata" fontWeight={"Bold"}
           textColor={"blue"}
         >
           Secure data transfer
@@ -70,9 +70,9 @@ export const GooveySmartTemp = () => (
         sniffer port.
       </Text>
       <br />
-      <Text fontSize="xl">conclusion</Text>
+      <Text fontSize="xl" fontWeight={"Bold"}>Conclusion</Text>
       <Text fontSize="l">
-        because this research is still ongoing it is not possible to make a
+        Because this research is still ongoing it is not possible to make a
         conclusion now.
       </Text>
       <br />
