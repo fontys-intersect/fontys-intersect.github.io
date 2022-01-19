@@ -12,7 +12,7 @@ import {
 
 export const BestPractices = () => (
   <Box w={"100%"} alignItems="center">
-    <Container maxW={["100%", "80%"]} p={4}>
+    <Container maxW={["100%", "80%"]} h={"100vh"} p={4}>
       <Text fontSize="3xl"> Best practices </Text>
       <Text fontSize={"l"}>
         A best practice is a method or technique that has been generally
