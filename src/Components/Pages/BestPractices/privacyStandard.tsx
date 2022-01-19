@@ -18,10 +18,10 @@ export const PrivacyStandard = () => (
       <br />
       <Text fontSize={'xl'}>Table of Contents</Text>
       <UnorderedList>
-        <ListItem>Intro</ListItem>
         <ListItem>Explanation</ListItem>
         <ListItem>Usage</ListItem>
-        <ListItem>Vulnerability</ListItem>
+        <ListItem>Vulnerabilities</ListItem>
+        <ListItem>Cases</ListItem>
         <ListItem>Bibliography</ListItem>
       </UnorderedList>
       <br />

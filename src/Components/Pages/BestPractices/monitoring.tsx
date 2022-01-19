@@ -21,10 +21,10 @@ export const Monitoring = () => (
       <br />
       <Text fontSize={"xl"}>Table of Contents</Text>
       <UnorderedList>
-        <ListItem>Intro</ListItem>
         <ListItem>Explanation</ListItem>
-        <ListItem>Usage and good examples</ListItem>
-        <ListItem>Vulnerability</ListItem>
+        <ListItem>Usage</ListItem>
+        <ListItem>Vulnerabilities</ListItem>
+        <ListItem>Cases</ListItem>
         <ListItem>Bibliography</ListItem>
       </UnorderedList>
       <br />
