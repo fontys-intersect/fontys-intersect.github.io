@@ -23,7 +23,7 @@ export const InputValidation = () => (
       <UnorderedList>
         <ListItem>Explanation</ListItem>
         <ListItem>Usage</ListItem>
-        <ListItem>Vulnerability</ListItem>
+        <ListItem>Vulnerabilities</ListItem>
         <ListItem>Cases</ListItem>
         <ListItem>Bibliography</ListItem>
       </UnorderedList>
