@@ -11,10 +11,10 @@ export const VersionUpdate = () => (
       <br />
       <Text fontSize={'xl'}>Table of Contents</Text>
       <UnorderedList>
-        <ListItem>Intro</ListItem>
         <ListItem>Explanation</ListItem>
         <ListItem>Usage</ListItem>
-        <ListItem>Vulnerability</ListItem>
+        <ListItem>Vulnerabilities</ListItem>
+        <ListItem>Cases</ListItem>
         <ListItem>Bibliography</ListItem>
       </UnorderedList>
       <br />
@@ -41,6 +41,19 @@ export const VersionUpdate = () => (
       </Text>
       <br />
       <Text fontSize={'xl'}>Cases</Text>
+      <Text fontSize={"l"} fontWeight={"bold"}>
+        Smartscreen
+      </Text>
+      <Text fontSize={"l"}>
+      The smartscreen supported an update functionality, but in an insecure way. A malicious update could be sent to the updating client by intercepting the traffic.
+      </Text>
+      <br />
+      <Text fontSize={"l"} fontWeight={"bold"}>
+        Smartwatch
+      </Text>
+      <Text fontSize={"l"}>
+      The smartwatch was severely outdated, causing the possibility of unauthorised access to interfaces.
+      </Text>
       <Text fontSize={'l'}>
         
       </Text>
@@ -50,11 +63,23 @@ export const VersionUpdate = () => (
       <Text fontSize={'xl'}>
         The bibliography according to this page is <br />
         <UnorderedList>
-          {/* <ListItem>
-            INTERSECT. (z.d.). dcypher. Geraadpleegd op 10 december 2020, van
-            https://www.dcypher.nl/en/intersect
-          </ListItem> */}
           <ListItem>
+            ENISA. (2017, November 20). Baseline Security Recommendations for IoT, from &nbsp;
+            <Link href="https://www.enisa.europa.eu/publications/baseline-security-recommendations-for-iot">
+              ENISA <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+          Hogan, M., & Piccarreta, B. (2018, February). Draft NISTIR 82001 Interagency Report on Status of 2 International Cybersecurity 3 Standardization for the 4 Internet of Things (IoT), from &nbsp;
+            <Link href="https://csrc.nist.gov/CSRC/media/Publications/nistir/8200/draft/documents/nistir8200-draft.pdf">
+              NIST <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+          Enisa. (2019, 1 October). Good Practices IoT Enisa, from &nbsp;
+            <Link href="https://www.enisa.europa.eu/publications/good-practices-for-security-of-iot-1/at_download/fullReport">
+              ENISA <ExternalLinkIcon mx="2px" />
+            </Link>
           </ListItem>
         </UnorderedList>
       </Text>

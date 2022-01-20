@@ -21,11 +21,11 @@ export const Authentication = () => (
       <br />
       <Text fontSize={"xl"}>Table of Contents</Text>
       <UnorderedList>
-        <ListItem>Intro</ListItem>
         <ListItem>Explanation</ListItem>
-        <ListItem>Usage and good examples</ListItem>
-        <ListItem>Vulnerability</ListItem>
+        <ListItem>Usage</ListItem>
+        <ListItem>Vulnerabilities</ListItem>
         <ListItem>Bibliography</ListItem>
+        <ListItem>cases</ListItem>
       </UnorderedList>
       <br />
       <Text fontSize={"xl"}>Explanation</Text>
@@ -159,16 +159,16 @@ export const Authentication = () => (
       <Text fontSize={"l"}>
         The smartwatches had bad authentication, the user could access and abuse certain interfaces.
       </Text>
-      <Text fontSize={"l"} fontWeight={"bold"}>
+      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/smartlock">
         Smart Lock
-      </Text>
+      </Link>
       <Text fontSize={"l"}>
         The smart lock had bad authentication, the user could brute force their way into the system and the password requirements were almost entirely absent.
 
       </Text>
-      <Text fontSize={"l"} fontWeight={"bold"}>
+      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/boschsiemens">        
         Bosch Siemens
-      </Text>
+      </Link>
       <Text fontSize={"l"}>
         The bosch siemens case showed a good way to authenticate and a secure way of doing so.
 

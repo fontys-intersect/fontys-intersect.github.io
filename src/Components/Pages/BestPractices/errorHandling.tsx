@@ -21,10 +21,10 @@ export const ErrorHandling = () => (
       <br />
       <Text fontSize={"xl"}>Table of Contents</Text>
       <UnorderedList>
-        <ListItem>Intro</ListItem>
         <ListItem>Explanation</ListItem>
-        <ListItem>Usage and good examples</ListItem>
-        <ListItem>Vulnerability</ListItem>
+        <ListItem>Usage</ListItem>
+        <ListItem>Vulnerabilities</ListItem>
+        <ListItem>Cases</ListItem>
         <ListItem>Bibliography</ListItem>
       </UnorderedList>
       <br />
@@ -68,9 +68,9 @@ export const ErrorHandling = () => (
       </Text>
       <br />
       <Text fontSize={"xl"}>Cases</Text>
-      <Text fontSize={"l"} fontWeight={"bold"}>
+      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/wled">
         WLED
-      </Text>
+      </Link>
       <Text fontSize={"l"}>
         Wled showcases the importance of SSL since the web application that
         communicates with an IoT device can be easily exploited.
