@@ -42,6 +42,12 @@ import {SecureArticle} from "./Pages/Articles/articlesecure";
 import {AirQuality} from "./Pages/Cases/airqualitySensor";
 import { CaseOverview } from "./Pages/Cases";
 import {SmartScreen} from "./Pages/Cases/smartScreen";
+import { ToolingOverview } from "./Pages/Tooling";
+import { Burpsuite } from "./Pages/Tooling/burpsuite";
+import { HciTool } from "./Pages/Tooling/hciTool";
+import { PrinterExploitTool } from "./Pages/Tooling/printerExploitTool";
+import { Wireshark } from "./Pages/Tooling/wireshark";
+import { ZeekTooling } from "./Pages/Tooling/zeekTooling";
 
 
 class Router extends Component {
@@ -81,6 +87,12 @@ class Router extends Component {
           <Route path="/article/wled" exact component={WLEDArticle} />
           <Route path="/article/network" exact component={SecureArticle} />
           <Route path="/bestpractices" exact component={BestPractices} />
+          <Route path="/tooling" exact component={ToolingOverview} />
+          <Route path="/tooling/burpsuite" exact component={Burpsuite} />
+          <Route path="/tooling/hci" exact component={HciTool} />
+          <Route path="/tooling/pret" exact component={PrinterExploitTool} />
+          <Route path="/tooling/wireshark" exact component={Wireshark} />
+          <Route path="/tooling/zeek" exact component={ZeekTooling} />
           <Route
             path="/bestpractices/authentication"
             exact

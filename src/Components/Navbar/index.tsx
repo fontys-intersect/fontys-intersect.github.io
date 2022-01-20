@@ -101,10 +101,7 @@ export default function Navbar() {
                     {" "}
                     Articles
                   </MenuItem>
-                  <MenuItem as="a" href="/fontys-intersect-2021/#/case/wled">
-                    IoT test tooling
-                  </MenuItem>
-                  <MenuItem as="a" href="/">
+                  <MenuItem as="a" href="/fontys-intersect-2021/#/tooling">
                     {" "}
                     Tools used
                   </MenuItem>
