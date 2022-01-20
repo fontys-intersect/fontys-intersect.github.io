@@ -15,10 +15,10 @@ export const DataHandling = () => (
       <br />
       <Text fontSize={'xl'}>Table of Contents</Text>
       <UnorderedList>
-        <ListItem>Intro</ListItem>
         <ListItem>Explanation</ListItem>
         <ListItem>Usage</ListItem>
-        <ListItem>Vulnerability</ListItem>
+        <ListItem>Vulnerabilities</ListItem>
+        <ListItem>Cases</ListItem>
         <ListItem>Bibliography</ListItem>
       </UnorderedList>
       <br />
@@ -48,17 +48,17 @@ export const DataHandling = () => (
       </Text>
       <br />
       <Text fontSize={'xl'}>Cases</Text>
-      <Text fontSize={'l'} fontWeight={'bold'}>
+      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/solaredge">
         solarEdge solar panels case
-      </Text>
+      </Link>
       <Text fontSize={'l'}>
         during the research we found out that the data that's being collected by the solar panels is presented in a
         clear manner using a dashboard. This is a good example of data transparency.
       </Text>
       <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
+      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/gooveysmarttemp">
         Goovey thermostat case
-      </Text>
+      </Link>
       <Text fontSize={'l'}>
         during this research we also found out that the data being sent is presented on a dashboard that can be viewed
         through a phone app made by the company.

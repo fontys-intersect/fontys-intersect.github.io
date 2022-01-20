@@ -22,10 +22,10 @@ export const Authorization = () => (
       <br />
       <Text fontSize={"xl"}>Table of Contents</Text>
       <UnorderedList>
-        <ListItem>Intro</ListItem>
         <ListItem>Explanation</ListItem>
-        <ListItem>Usage and good examples</ListItem>
-        <ListItem>Vulnerability</ListItem>
+        <ListItem>Usage</ListItem>
+        <ListItem>Vulnerabilities</ListItem>
+        <ListItem>Cases</ListItem>
         <ListItem>Bibliography</ListItem>
       </UnorderedList>
       <br />
@@ -108,9 +108,9 @@ export const Authorization = () => (
         all resources.
       </Text>
       <br />
-      <Text fontSize={"l"} fontWeight={"bold"}>
+      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/wled">
         WLED
-      </Text>
+      </Link>
       <Text fontSize={"l"}>The session of a user was never checked</Text>
       <Divider m={2} />
       <Text fontSize="3xl"> Bibliography </Text>

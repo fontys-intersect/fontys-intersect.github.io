@@ -21,7 +21,7 @@ export const Article = () => (
             marginLeft={"10%"}
             marginTop={"1%"}
         />
-        <Container maxW={["100%", "80%"]} p={4}>
+        <Container maxW={["100%", "80%"]} h={"100vh"} p={4}>
             <Text fontSize="3xl"> Articles </Text>
             <Text fontSize={"l"}>
                 Additional Articles related to the research done in the Intersct project can be found here.

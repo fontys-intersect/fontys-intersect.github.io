@@ -19,13 +19,11 @@ import {
         bgColor="gray.800"
         color="white.600"
         flexDir='column'
-        //left='auto'
+        left='auto'
         bottom='0'
-        left='0'
         right='0'
         w="100%"
         mt={"-200px"}
-        pos={"fixed"}
         marginTop={"auto"}
       >
         <Container as={Stack} maxW="8xl">

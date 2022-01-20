@@ -15,7 +15,7 @@ export const Printer = () => (
     <Container maxW={["100%", "80%"]} p={4}>
       <Text fontSize="3xl"> HP Laserjet</Text>
       <br />
-      <Text fontSize="xl"> Introduction </Text>
+      <Text fontSize="xl" fontWeight={"bold"}> Introduction </Text>
       <Text fontSize={"l"}>
         The HP Laserjet 2600 printer is a professional, wide-format business
         Inkjet printer designed for workgroups. For the pentest, a test network
@@ -29,7 +29,7 @@ export const Printer = () => (
         />
       </Text>
       <br />
-      <Text fontSize={"xl"}>Table of Contents</Text>
+      <Text fontSize={"xl"} fontWeight={"bold"}>Table of Contents</Text>
       <UnorderedList>
         <ListItem>Strengths</ListItem>
         <ListItem>Vulnerabilities</ListItem>
@@ -37,15 +37,15 @@ export const Printer = () => (
         <ListItem>Conclusion</ListItem>
       </UnorderedList>
       <br />
-      <Text fontSize={"xl"}>Strengths</Text>
-      <Text fontSize={"ll"}>
+      <Text fontSize={"xl"} fontWeight={"Bold"}>Strengths</Text>
+      <Text fontSize={"l"}>
         During our research we weren't able to find many useful packets
         regarding the communication from the user's device to the printer. As
         most of the sent packages were keep-alive or encrypted packages, this
         ensured the transfer of data was mostly secure.
       </Text>
       <br />
-      <Text fontSize={"xl"}>Vulnerabilities</Text>
+      <Text fontSize={"xl"} fontWeight={"bold"}>Vulnerabilities</Text>
       <Text fontSize="l" fontWeight="bold">
         Insecure Communication
       </Text>
@@ -78,7 +78,7 @@ export const Printer = () => (
       </Text>
       <Text fontSize="l">Use a form of encryption.</Text>
       <br />
-      <Text fontSize="l" fontWeight="bold">
+      <Text fontSize="l" fontWeight={"Bold"}>
         Insecure Default Settings
       </Text>
       <Text fontSize="l">
@@ -94,10 +94,10 @@ export const Printer = () => (
         able to change settings without proper authentication.
       </Text>
       <br />
-      <Text fontSize="xl">Best practices</Text>
+      <Text fontSize="xl" fontWeight={"Bold"}>Best practices</Text>
       <Text fontSize="l">
         For the printer we found that the communication between the printer and
-        the user device should be encrypted. This will prevent plain text
+        the user device should be <Link color={"blue"} href={"/fontys-intersect-2021/#/bestpractices/securedata"}>encrypted</Link>. This will prevent plain text
         transmissions, hereby making the “man in the middle” attack obsolete.
         The printer sends packages containing plain text information about the
         sender, this can be prevented with the usage of{" "}
@@ -120,7 +120,7 @@ export const Printer = () => (
         to allow the user access to the configuration of the printer itself.
       </Text>
       <br />
-      <Text fontSize="xl">Conclusion</Text>
+      <Text fontSize="xl" fontWeight={"Bold"}>Conclusion</Text>
       <Text fontSize="l"></Text>
       <br />
     </Container>

@@ -10,7 +10,7 @@ export const Homepage = () => (
             w="auto"
             marginLeft={"10%"}
         />
-        <Container maxW={["100%", "80%"]} p={4}>
+        <Container maxW={["100%", "80%"]} h={"100vh"} p={4}>
             <Text fontSize="3xl" fontWeight={"bold"}> The project </Text>
             <Text fontSize={"l"}>
                 This website describes the research conducted on behalf of the INTERSCT

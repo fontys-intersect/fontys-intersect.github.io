@@ -6,26 +6,26 @@ export const SmartLock = () => (
     <Container maxW={['100%', '80%']} p={4}>
       <Text fontSize="3xl"> Smart Lock Biometric case</Text>
       <br />
-      <Text fontSize="xl"> Introduction </Text>
+      <Text fontSize="xl" fontWeight={"bold"}> Introduction </Text>
       <Text fontSize={'l'}>
       The Master Lock 4901EURDLHCC is a biometric security lock that is used for locking something that needs to be locked outdoors. 
       It uses a biometric fingerprint reader and registered fingerprints to check if somebody is supposed to have access to this lock. It can also be unlocked by a preset code and it can store-up to 10 fingerprints.
       </Text>
       <br />
-      <Text fontSize={'xl'}>Table of Contents</Text>
+      <Text fontSize={'xl'} fontWeight={"bold"}>Table of Contents</Text>
       <UnorderedList>
-        <ListItem>Strenghts</ListItem>
+        <ListItem>Strengths</ListItem>
         <ListItem>Vulnerabilities</ListItem>
         <ListItem>Possible fixes</ListItem>
         <ListItem>Best practices</ListItem>
       </UnorderedList>
       <br />
-      <Text fontSize={'xl'}>Strenghts</Text>
+      <Text fontSize={'xl'} fontWeight={"bold"}>Strengths</Text>
       <Text fontSize={'l'}>
       Biometric scanner? Reset mechanism lockout with battery startup?
       </Text>
       <br />
-      <Text fontSize={'xl'}>Vulnerabilities</Text>
+      <Text fontSize={'xl'} fontWeight={"bold"}>Vulnerabilities</Text>
       <Text fontSize="l" fontWeight="bold">
         Insecure Default Settings
       </Text>
@@ -67,15 +67,15 @@ export const SmartLock = () => (
       Have a confirm button that makes it so that the user has to confirm their code every time.
       </Text>
       <br />
-      <Text fontSize="xl">
+      <Text fontSize="xl" fontWeight={"bold"}>
         Best practices
       </Text>
       <Text fontSize="l">
-      The best practises found in this case are related to physical hardening , and default settings; more about these best practices can be read on their respective pages.
+        The best practices found in this case are related to <Link color={"blue"} href={"/fontys-intersect-2021/#/owasp/top/10"}>physical hardening</Link> , and <Link color={"blue"} href={"/fontys-intersect-2021/#/owasp/top/9"}>default settings</Link>; more about these best practices can be read on their respective pages.
       </Text>
       <br />
-      <Text fontSize="xl">
-          conclusion
+      <Text fontSize="xl" fontWeight={"bold"}>
+          Conclusion
       </Text>
       <Text fontSize="l">
         
