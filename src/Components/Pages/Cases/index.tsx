@@ -29,7 +29,7 @@ export const CaseOverview = () => (
       <Text fontSize="l">
         The results of the cases are based on performed penetration tests. Due
         to the different result of the cases, each case will get its own
-        designated page with the found strenghts and/or weaknesses. The best
+        designated page with the found strengths and/or weaknesses. The best
         practices, which are created with the result from the collection of
         cases, will be mentioned on the page if the best practice is being
         applied or is missing.
@@ -88,19 +88,19 @@ export const CaseOverview = () => (
 
       <UnorderedList>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/airquality" textColor={"blue"}>
             Airquality&nbsp;
           </Link>
           (Smart Industry)
         </ListItem>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/smartscreen" textColor={"blue"}>
             Smartscreen&nbsp;
           </Link>
           (Smart Office)
         </ListItem>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/solaredge" textColor={"blue"}>
             Smartwatch&nbsp;
           </Link>
           (Smart Home)
