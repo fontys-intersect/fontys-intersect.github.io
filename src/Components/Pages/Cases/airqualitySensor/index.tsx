@@ -66,7 +66,7 @@ export const AirQuality = () => (
 
                 <ListItem><Text fontSize={"l"} fontWeight={"bold"}>No Password rules </Text> There aren’t any rules for
                     the password when an account is created. This makes it possible to have a password with only one
-                    character or even no characters.</ListItem>
+                    character or even no characters. This causes the creation of <Link href="/fontys-intersect-2021/#/owasp/top/1" textColor={"blue"}>insecure passwords</Link></ListItem>
 
                 <ListItem><Text fontSize={"l"} fontWeight={"bold"}>Input filtering </Text> An attacker can omit certain
                     parameters when making new users, sensors or locations, making these invalid.</ListItem>

@@ -35,6 +35,24 @@ export const Password = () => (
         explained a vulnerability flaw within the software allowing attackers to
         perform remote code execution via an OS command injection.
       </Text>
+      <br />
+      <Text fontSize={"l"}>
+        Allowing users to create insecure passwords, passwords without any
+        requirements as an example, creates an easy way for attackers to either
+        attempt brute forcing to gain access to an account. Depending on the
+        type of network access the IoT system has, this can cause a lot of
+        potential damage to the network without any properly managed firewalls.
+      </Text>
+      <br />
+      <Text fontSize={"xl"}>Cases</Text>
+      <Text fontSize={"l"}>
+        This vulnerability has been found in the following cases:
+        <UnorderedList>
+          <ListItem>WLED</ListItem>
+          <ListItem>HP LaserJet Printer</ListItem>
+          <ListItem>Airquality</ListItem>
+        </UnorderedList>
+      </Text>
       <Divider m={2} />
       <Text fontSize="3xl"> Bibliography </Text>
       <Text fontSize={"xl"}>
@@ -45,7 +63,9 @@ export const Password = () => (
             https://www.dcypher.nl/en/intersect
           </ListItem> */}
           <ListItem>
-            Govindraj Basatwar - Global Business Head. (2021, September 17). Guide to OWASP IoT Top 10 for proactive security. NWO. Retrieved November 11, 2021, from&nbsp;
+            Govindraj Basatwar - Global Business Head. (2021, September 17).
+            Guide to OWASP IoT Top 10 for proactive security. NWO. Retrieved
+            November 11, 2021, from&nbsp;
             <Link href="https://www.appsealing.com/owasp-iot-top-10/">
               Appsealing <ExternalLinkIcon mx="2px" />
             </Link>

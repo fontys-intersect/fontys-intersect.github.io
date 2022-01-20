@@ -88,7 +88,7 @@ export const CaseOverview = () => (
 
       <UnorderedList>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/airquality" textColor={"blue"}>
             Airquality&nbsp;
           </Link>
           (Smart Industry)
