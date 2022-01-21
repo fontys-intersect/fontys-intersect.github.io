@@ -93,7 +93,10 @@ export const Printer = () => (
       </Text>
       <br />
       <Text fontSize="xl" fontWeight={"Bold"}>Conclusion</Text>
-      <Text fontSize="l"></Text>
+      <Text fontSize="l">
+        During the Printer research assignment signs of <Link  color={"blue"} href={"/fontys-intersect-2021/#/bestpractices/securedata"}>insecure transmissions</Link> were found. <Link  color={"blue"} href={"/fontys-intersect-2021/#/bestpractices/authentication"}>Authentication </Link> was also not properly done.
+        The printer is therefore quite insecure. By applying concepts of the best practices mentioned. The overall security can be improved.
+      </Text>
       <br />
     </Container>
     <Container h={"200px"}></Container>
