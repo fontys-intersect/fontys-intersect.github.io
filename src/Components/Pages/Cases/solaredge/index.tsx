@@ -26,6 +26,7 @@ export const SolarEdge = () => (
             <Text fontSize={'xl'} fontWeight={"bold"}>Table of Contents</Text>
             <UnorderedList>
                 <ListItem>Strengths</ListItem>
+                <ListItem>Vulnerabilities</ListItem>
                 <ListItem>Best practices</ListItem>
                 <ListItem>Conclusion</ListItem>
             </UnorderedList>
@@ -36,6 +37,14 @@ export const SolarEdge = () => (
                 doesn’t show any data being send to intercept. Also the inverter itself has some implementation of a
                 firewall that blocks NMAP from properly scanning and displaying open ports.
 
+            </Text>
+            <br/>
+
+            <Text fontSize={"xl"} fontWeight={"bold"}>
+                Vulnerabilities
+            </Text>
+            <Text fontSize={"l"}>
+                The vulnerabilities, in this case, were not found, due to testing restrictions.
             </Text>
             <br/>
             <Text id={"Bestpractices"} fontSize={'xl'} fontWeight={"bold"}>Best practices</Text>
