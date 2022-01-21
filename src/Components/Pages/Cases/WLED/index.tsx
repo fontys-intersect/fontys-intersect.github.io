@@ -58,9 +58,15 @@ export const Wled = () => (
       <Text fontSize={"l"}>
         Among these are:
         <UnorderedList>
-          <ListItem>Burp Suite</ListItem>
-          <ListItem>LOIC</ListItem>
-          <ListItem>WireShark</ListItem>
+          <ListItem>  <Link textColor={"blue"}  href="/#/tooling/burpsuite">
+            Burp Suite
+          </Link></ListItem>
+          <ListItem><Link textColor={"blue"}  href="/#/tooling/loic">
+            LOIC
+          </Link></ListItem>
+          <ListItem><Link textColor={"blue"}  href="/#/tooling/wireshark">
+            WireShark
+          </Link></ListItem>
         </UnorderedList>
       </Text>
       <br />
