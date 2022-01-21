@@ -48,6 +48,7 @@ import { HciTool } from "./Pages/Tooling/hciTool";
 import { PrinterExploitTool } from "./Pages/Tooling/printerExploitTool";
 import { Wireshark } from "./Pages/Tooling/wireshark";
 import { ZeekTooling } from "./Pages/Tooling/zeekTooling";
+import {NetworkSetup} from "./Pages/Tooling/networksetup";
 
 
 class Router extends Component {
@@ -93,6 +94,7 @@ class Router extends Component {
           <Route path="/tooling/pret" exact component={PrinterExploitTool} />
           <Route path="/tooling/wireshark" exact component={Wireshark} />
           <Route path="/tooling/zeek" exact component={ZeekTooling} />
+          <Route path="/tooling/networksetup" exact component={NetworkSetup} />
           <Route
             path="/bestpractices/authentication"
             exact
