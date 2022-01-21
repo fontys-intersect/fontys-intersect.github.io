@@ -12,113 +12,40 @@ import {
   export const ZeekTooling = () => (
     <Box w={'100%'} alignItems="center">
     <Container maxW={['100%', '80%']} p={4}>
-      <Text fontSize="3xl"> kopje </Text>
+    <Text fontSize="3xl"> Zeek </Text>
+      <Text fontSize="2xl"> What is Zeek? </Text>
       <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Zeek is a network traffic analyzer that can import captured network traffic and make clear representations of the captured network traffic. 
       </Text>
       <br />
-      <Text fontSize={'xl'}>Table of Contents</Text>
+      <Text fontSize="2xl"> What can Zeek do? </Text>
+      <Text fontSize={'l'}>
+      Zeek can analyze network traffic and make clear interpretations of that network traffic. <br />
+      It can for example show how many packets are http requests or responses and from which countries they come from.
+      </Text>
+      <br />
+      <Text fontSize="2xl"> Links: </Text>
       <UnorderedList>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
+        <ListItem>
+          <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="https://zeek.org/get-zeek/">
+            Download
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="https://docs.zeek.org/en/master/index.html">
+          Documentation
+          </Link>
+        </ListItem>
       </UnorderedList>
       <br />
-      <Text fontSize={'xl'}>kopje</Text>
-      <Text fontSize={'ll'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>kopje</Text>
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        <br />
-        <UnorderedList>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
+      <Text fontSize={'2xl'}>Cases where Zeek whas used:</Text>
+      <UnorderedList>
+          <ListItem>
+            <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="#/case/printer">
+              HP laserjet printer
+            </Link>
+          </ListItem>
         </UnorderedList>
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>kopje 1</Text>
-      <Text fontSize={'l'}>
-        <UnorderedList>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-        </UnorderedList>
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>kopje 1</Text>
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.{' '}
-      </Text>
-      <Link fontSize={'l'} fontWeight={'bold'} href="/fontys-intersect-2021/#/case/smartlock">
-        link kopje 2
-      </Link>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <Link fontSize={'l'} fontWeight={'bold'} href="/fontys-intersect-2021/#/case/boschsiemens">
-        link kopje 2
-      </Link>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <Image
-            src={"/fontys-intersect-2021/assets/images/intersectlogo.png"}
-            alt="test"
-            h="auto" //height
-            w="auto" //width
-            marginLeft={"10%"}
-        />
     </Container>
   </Box>
     

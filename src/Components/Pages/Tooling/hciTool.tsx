@@ -12,113 +12,45 @@ import {
   export const HciTool = () => (
     <Box w={'100%'} alignItems="center">
     <Container maxW={['100%', '80%']} p={4}>
-      <Text fontSize="3xl"> kopje </Text>
+    <Text fontSize="3xl"> Hcitool </Text>
+      <Text fontSize="2xl"> What is hcitool? </Text>
       <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Hcitool is a linux command line tool that allows the user to configure bluetooth connections <br/>
+      and send special bluetooth commands to bluetooth devices and it allows the user to also <br/>
+       find useful information about surrounding bluetooth devices.
       </Text>
       <br />
-      <Text fontSize={'xl'}>Table of Contents</Text>
+      <Text fontSize="2xl"> What can hcitool do? </Text>
+      <Text fontSize={'l'}>
+      Hcitool has multiple usages but we used it mainly to discover specific bluetooth devices in <br/>
+      the area and their corresponding bluetooth MAC address.
+      </Text>
+      <br />
+      <Text fontSize="2xl"> Links: </Text>
       <UnorderedList>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
+        <ListItem>
+          <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="https://linux.die.net/man/1/hcitool">
+            Documentation/man page
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Text fontSize={'l'} fontWeight={'bold'}>
+            Install
+          </Text>
+          <Text fontSize={'l'}>
+            you can install hcitool through the package manager on your linux distro.
+          </Text>
+        </ListItem>
       </UnorderedList>
       <br />
-      <Text fontSize={'xl'}>kopje</Text>
-      <Text fontSize={'ll'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>kopje</Text>
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        <br />
-        <UnorderedList>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
+      <Text fontSize={'2xl'}>Cases where hcitool whas used:</Text>
+      <UnorderedList>
+          <ListItem>
+            <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="#/case/gooveysmarttemp">
+            Govee H505 Thermostat
+            </Link>
+          </ListItem>
         </UnorderedList>
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>kopje 1</Text>
-      <Text fontSize={'l'}>
-        <UnorderedList>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-        </UnorderedList>
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>kopje 1</Text>
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.{' '}
-      </Text>
-      <Link fontSize={'l'} fontWeight={'bold'} href="/fontys-intersect-2021/#/case/smartlock">
-        link kopje 2
-      </Link>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <Link fontSize={'l'} fontWeight={'bold'} href="/fontys-intersect-2021/#/case/boschsiemens">
-        link kopje 2
-      </Link>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <Image
-            src={"/fontys-intersect-2021/assets/images/intersectlogo.png"}
-            alt="test"
-            h="auto" //height
-            w="auto" //width
-            marginLeft={"10%"}
-        />
     </Container>
   </Box>
   )
