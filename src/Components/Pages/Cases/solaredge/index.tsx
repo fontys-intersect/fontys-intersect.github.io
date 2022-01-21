@@ -26,6 +26,7 @@ export const SolarEdge = () => (
             <Text fontSize={'xl'} fontWeight={"bold"}>Table of Contents</Text>
             <UnorderedList>
                 <ListItem>Strengths</ListItem>
+                <ListItem>Best practices</ListItem>
                 <ListItem>Conclusion</ListItem>
             </UnorderedList>
             <br/>

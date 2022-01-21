@@ -36,6 +36,7 @@ export const Wled = () => (
       </Text>
       <UnorderedList>
         <ListItem>Case Explanation</ListItem>
+        <ListItem>Tools</ListItem>
         <ListItem>Strengths</ListItem>
         <ListItem>Vulnerabilities</ListItem>
         <ListItem>Possible Fixes</ListItem>
@@ -60,6 +61,13 @@ export const Wled = () => (
           <ListItem>LOIC</ListItem>
           <ListItem>WireShark</ListItem>
         </UnorderedList>
+      </Text>
+      <br />
+      <Text fontSize={"xl"} fontWeight={"bold"}>
+        Strengths
+      </Text>
+      <Text fontSize={"l"}>
+        This application was found very vulnerable, it seemed hereby unnecessarily to mention the strengths, even if we could find them.
       </Text>
       <br />
       <Text fontSize={"xl"} fontWeight={"bold"}>
