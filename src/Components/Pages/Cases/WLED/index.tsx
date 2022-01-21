@@ -157,6 +157,14 @@ export const Wled = () => (
         </Link>
         ; more about these best practices can be read on their respective pages.
       </Text>
+<br/>
+      <Text id={"Conclusion"} fontSize={'xl'} fontWeight ={'bold'}>Conclusion</Text>
+      <Text fontSize="l">
+        All of the vulnerabilities in the application can be fixed. To fix those, for each vulnerability the
+        best practice needs to be followed. After this is done, there should be a lot of tests, to see if the
+        vulnerabilities are really fixed.
+      </Text>
+      <br/>
       <Divider m={2} />
       <Text fontSize="3xl"> Bibliography </Text>
       <Text fontSize={"xl"}>

@@ -20,7 +20,7 @@ export const BoschSiemens = () => (
                 <ListItem>Best practices</ListItem>
             </UnorderedList>
       <br />
-      <Text fontSize={'xl'}>Architecture</Text>
+      <Text fontSize={'xl'} fontWeight={'bold'}>Architecture</Text>
       <Image
         src={'/fontys-intersect-2021/assets/images/BoschSiemensArchitecture.jpg'}
         alt="test"
@@ -67,6 +67,30 @@ export const BoschSiemens = () => (
       And since they are using TLS v1.2 they also use the encryption method with Sha256 giving it an extra hard cipher to crack.
       </Text>
       <br />
+      <Text fontSize="2xl" fontWeight={"bold"}>
+        Best Practices
+      </Text>
+
+      <Text>
+        The Bosch Siemens devices and surrounding environment show good usage of:{" "}
+        <Link textColor={"blue"}  href="/#/bestpractices/splitdev">
+          split development and production environments
+        </Link>
+        ,{" "}
+        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/authentication">
+          authentication
+        </Link>{", "}
+        <Link textColor={"blue"}  href="/fontys-intersect-2021/#/bestpractices/authorization">
+          authorization
+        </Link>
+        ,{" "}
+        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/errorhandling">
+          error handling
+        </Link>
+        ,{" "}
+        ; more about these best practices can be read on their respective pages.
+      </Text>
+      <br/>
       <Text fontSize={"xl"} fontWeight={"bold"}>
       Conclusion
       </Text>

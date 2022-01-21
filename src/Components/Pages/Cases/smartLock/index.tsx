@@ -78,6 +78,8 @@ export const SmartLock = () => (
           Conclusion
       </Text>
       <Text fontSize="l">
+        All of the vulnerabilities in the application can be fixed. To fix those, for each vulnerability the
+        best practice needs to be followed. Mainly the fixes that have been mentioned above should be applied, this will substantially increase the safety of the devices.
         
       </Text>
     </Container>

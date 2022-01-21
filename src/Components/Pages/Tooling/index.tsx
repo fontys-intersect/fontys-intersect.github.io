@@ -38,7 +38,7 @@ export const ToolingOverview = () => (
                  The main testing setup that was used during pentests that have been
                     performed on IoT devices can be found here. Due to the publication date of this website, only the
                     results from the most recent 2021-2022 project have been showcased here.
-                
+
             </Text>
             <br/>
         </Container>
