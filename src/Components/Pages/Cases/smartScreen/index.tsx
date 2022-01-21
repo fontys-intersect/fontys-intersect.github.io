@@ -24,7 +24,7 @@ export const SmartScreen = () => (
                 <ListItem>Case Explanation</ListItem>
                 <ListItem>Strengths</ListItem>
                 <ListItem>Vulnerabilities</ListItem>
-                <ListItem>Best Practices</ListItem>
+                <ListItem>Best practices</ListItem>
                 <ListItem>Conclusion</ListItem>
             </UnorderedList>
             <br/>

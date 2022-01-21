@@ -33,13 +33,14 @@ export const ToolingOverview = () => (
                 <Link color ={"blue"} href="/fontys-intersect-2021/#/tooling/zeek"><ListItem>Zeek</ListItem></Link>
             </UnorderedList>
             <br/>
-            <Text fontSize="3xl">Testing Setup</Text>
+            <Text fontSize="3xl"><Link href={'/fontys-intersect-2021/#/tooling/networksetup'}>Network Setup</Link></Text>
             <Text fontSize={"l"}>
                  The main testing setup that was used during pentests that have been
-                    performed on IoT devices can be found here. Due to the publication date of this website, only the
+                    performed on IoT devices can be found <Link color={'blue'} href={'/fontys-intersect-2021/#/tooling/networksetup'}> here</Link>. Due to the publication date of this website, only the
                     results from the most recent 2021-2022 project have been showcased here.
-                
+
             </Text>
+
             <br/>
         </Container>
     </Box>

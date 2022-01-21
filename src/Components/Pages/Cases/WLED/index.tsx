@@ -36,10 +36,12 @@ export const Wled = () => (
       </Text>
       <UnorderedList>
         <ListItem>Case Explanation</ListItem>
+        <ListItem>Tools</ListItem>
         <ListItem>Strengths</ListItem>
         <ListItem>Vulnerabilities</ListItem>
         <ListItem>Possible Fixes</ListItem>
         <ListItem>Best practices</ListItem>
+        <ListItem>Conclusion</ListItem>
       </UnorderedList>
       <br />
       <Text fontSize="l">
@@ -56,10 +58,23 @@ export const Wled = () => (
       <Text fontSize={"l"}>
         Among these are:
         <UnorderedList>
-          <ListItem>Burp Suite</ListItem>
-          <ListItem>LOIC</ListItem>
-          <ListItem>WireShark</ListItem>
+          <ListItem>  <Link textColor={"blue"}  href="/#/tooling/burpsuite">
+            Burp Suite
+          </Link></ListItem>
+          <ListItem><Link textColor={"blue"}  href="/#/tooling/loic">
+            LOIC
+          </Link></ListItem>
+          <ListItem><Link textColor={"blue"}  href="/#/tooling/wireshark">
+            WireShark
+          </Link></ListItem>
         </UnorderedList>
+      </Text>
+      <br />
+      <Text fontSize={"xl"} fontWeight={"bold"}>
+        Strengths
+      </Text>
+      <Text fontSize={"l"}>
+        This application was found very vulnerable, it seemed hereby unnecessarily to mention the strengths, even if we could find them.
       </Text>
       <br />
       <Text fontSize={"xl"} fontWeight={"bold"}>
@@ -157,6 +172,14 @@ export const Wled = () => (
         </Link>
         ; more about these best practices can be read on their respective pages.
       </Text>
+<br/>
+      <Text id={"Conclusion"} fontSize={'xl'} fontWeight ={'bold'}>Conclusion</Text>
+      <Text fontSize="l">
+        All of the vulnerabilities in the application can be fixed. To fix those, for each vulnerability the
+        best practice needs to be followed. After this is done, there should be a lot of tests, to see if the
+        vulnerabilities are really fixed.
+      </Text>
+      <br/>
       <Divider m={2} />
       <Text fontSize="3xl"> Bibliography </Text>
       <Text fontSize={"xl"}>
