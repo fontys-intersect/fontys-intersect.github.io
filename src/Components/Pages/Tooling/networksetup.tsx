@@ -3,113 +3,72 @@ import { Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link } f
 export const NetworkSetup = () => (
     <Box w={'100%'} alignItems="center">
 <Container maxW={['100%', '80%']} p={4}>
-<Text fontSize="3xl"> kopje </Text>
+<Text fontSize="3xl"> Network setup for monitoring test devices </Text>
+    <Text fontSize="2xl"> Why use a monitoring network setup for testing </Text>
     <Text fontSize={'l'}>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</Text>
-<br />
-<Text fontSize={'xl'}>Table of Contents</Text>
-<UnorderedList>
-<ListItem>content</ListItem>
-<ListItem>content</ListItem>
-<ListItem>content</ListItem>
-<ListItem>content</ListItem>
-<ListItem>content</ListItem>
-</UnorderedList>
-<br />
-<Text fontSize={'xl'}>kopje</Text>
-    <Text fontSize={'ll'}>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</Text>
-<br />
-<Text fontSize={'xl'}>kopje</Text>
-    <Text fontSize={'l'} fontWeight={'bold'}>
-    kopje 2
-</Text>
-<Text fontSize={'l'}>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</Text>
-<br />
-<Text fontSize={'l'} fontWeight={'bold'}>
-    kopje 2
-</Text>
-<Text fontSize={'l'}>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</Text>
-<br />
-<Text fontSize={'l'} fontWeight={'bold'}>
-    kopje 2
-</Text>
-<Text fontSize={'l'}>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</Text>
-<br />
-<Text fontSize={'l'} fontWeight={'bold'}>
-    kopje 2
-</Text>
-<Text fontSize={'l'}>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</Text>
-<br />
-<Text fontSize={'l'} fontWeight={'bold'}>
-    kopje 2
-</Text>
-<Text fontSize={'l'}>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-<br />
-<UnorderedList>
-    <ListItem>listitem</ListItem>
-<ListItem>listitem</ListItem>
-<ListItem>listitem</ListItem>
-<ListItem>listitem</ListItem>
-<ListItem>listitem</ListItem>
-</UnorderedList>
-</Text>
-<br />
-<Text fontSize={'xl'}>kopje 1</Text>
-<Text fontSize={'l'}>
-<UnorderedList>
-    <ListItem>listitem</ListItem>
-<ListItem>listitem</ListItem>
-</UnorderedList>
-</Text>
-<br />
-<Text fontSize={'xl'}>kopje 1</Text>
-<Text fontSize={'l'} fontWeight={'bold'}>
-    kopje 2
-</Text>
-<Text fontSize={'l'}>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.{' '}
-</Text>
-<Link fontSize={'l'} fontWeight={'bold'} href="/fontys-intersect-2021/#/case/smartlock">
-    link kopje 2
-</Link>
-<Text fontSize={'l'}>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</Text>
-<Link fontSize={'l'} fontWeight={'bold'} href="/fontys-intersect-2021/#/case/boschsiemens">
-    link kopje 2
-</Link>
-<Text fontSize={'l'}>
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-</Text>
-<Image
-src={"/fontys-intersect-2021/assets/images/intersectlogo.png"}
-alt="test"
-h="auto" //height
-w="auto" //width
-marginLeft={"10%"}
-/>
+        When you are testing a device for security vulnerabilities you wanna look at what kind of traffic goes through the device. <br />
+        With this information you can look at what kind of inputs the device has available. <br />
+        That information is critical when looking for vulnerabilities because when you have this information you can find out what kind of data and how this data is being delivered, <br />
+        and since you know this you can start trying to manipulate this data to find possible vulnerabilities. 
+    </Text>
+    <br />
+    <Text fontSize="2xl"> The setup </Text>
+    <br />
+    <Text fontSize="xl"> Network diagram </Text>
+    <Image
+        src={"/fontys-intersect-2021/assets/images/NetworkDiagram.png"}
+        alt="test"
+        h="auto" //height
+        w="auto" //width
+        marginLeft={"10%"}
+    />
+    <br />
+    <Text fontSize="xl"> Explained </Text>
+    <br />
+    <Text fontSize="xl" textColor={'darkgrey'}> Devices </Text>
+    <Text fontSize={'l'}>
+    In this setup you will at least want a device that support’s SPAN ports, <br />
+    a router, a sniffer device, the device you want to test and a client that can interact with the test device. <br />
+    The idea here is that you can enumerate and test the device that you want to test, <br />
+    and in the meanwhile you will monitor and save all the network traffic this device is generating on the sniffer device.
+    </Text>
+    <br />
+    <Text fontSize="xl" textColor={'darkgrey'}> SPAN config </Text>
+    <Text fontSize={'l'}>
+    SPAN or port mirroring is a technique that will copy all the in and outgoing traffic that goes over a certain port to another port on that device (typically network switch port’s). <br />
+    This makes it possible to put a device behind that port that copies the traffic and monitor all the network traffic that goes over that other port. <br />
+    In the diagram example above the <b>Intersect-Switch</b> has a SPAN config for coping all the traffic from  <br />
+    <b>port Fa1/0/48</b> to port <b>port Fa1/0/47</b> this makes it so that the sniffer device can see all the traffic received and generated by the printer. <br />
+    </Text>
+    <br />
+    <Text fontSize="xl" textColor={'darkgrey'}> Routing, DHCP and NAT </Text>
+    <Text fontSize={'l'}>
+    For ease the best option for testing a device is to create your own LAN network to reduce the amount of excess traffic on the network. <br />
+    This makes it that the traffic that you monitor is mostly generated by your own device towards the target/test device, <br />
+    or by the target itself which makes it a lot easier to analyze your own test traffic without the interference of other traffic which you have no control over. <br />
+    But it’s also important to keep in mind ease of use since a lot of configuration would slow down the operation of testing itself. <br />
+    For this we used a router. This makes it easy to create a network within an existing network, <br />
+    without having the problem of having traffic form the other network which our own created LAN exists in leake into our created LAN network. <br />
+    This can be accomplished by using NAT on a router that you place within the overlapping LAN network. <br />
+    In the case of the diagram this is done by configuring NAT on the intersect-router between the LAN and the Seclab network. <br />
+    The NAT configuration also automatically updates the routing table so you don’t have to configure the routing table on the router you use <br />
+    <br />
+    Besides all it’s also useful to implement DHCP on the router so you don’t have to configure static addresses for all devices that you connect to the network
+    </Text>
+    <br />
+    <Text fontSize="xl" textColor={'darkgrey'}> How to expand with wireless devices </Text>
+    <Text fontSize={'l'}>
+    It’s also possible to use wireless for clients and/or target/test devices. <br />
+    You can accomplish this by connecting an access point to the sniffer port or to a client port and connecting the device to the wireless network.
+    </Text>
+    <br />
+    <Text fontSize={'l'}>
+    <i>
+    NOTE: If you  want to use 2 wireless devices where one is the client and the other the target device that you use 2 access points, <br />
+    one connected to a client port and the other to the mirror port (in the diagram <b>Fa1/0/48</b>). <br />
+    This is because the traffic you want to monitor needs to get past the mirror port to get copied to the sniffer dev.
+    </i>
+    </Text>
 </Container>
 </Box>
 );
