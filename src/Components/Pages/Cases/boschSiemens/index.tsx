@@ -13,11 +13,12 @@ export const BoschSiemens = () => (
       <br />
       <Text fontSize={"xl"} fontWeight={"bold"}>Table of Contents </Text>
             <UnorderedList>
-                <ListItem>Case Explanation</ListItem>
+                <ListItem>Architecture</ListItem>
+                <ListItem>Tools</ListItem>
                 <ListItem>Strengths</ListItem>
-                <ListItem>Vulnerabilities</ListItem>
                 <ListItem>Possible Fixes</ListItem>
                 <ListItem>Best practices</ListItem>
+                <ListItem>Conclusion</ListItem>
             </UnorderedList>
       <br />
       <Text fontSize={'xl'} fontWeight={'bold'}>Architecture</Text>

@@ -33,7 +33,7 @@ export const Printer = () => (
       <UnorderedList>
         <ListItem>Strengths</ListItem>
         <ListItem>Vulnerabilities</ListItem>
-        <ListItem>Best Practises</ListItem>
+        <ListItem>Best Practices</ListItem>
         <ListItem>Conclusion</ListItem>
       </UnorderedList>
       <br />

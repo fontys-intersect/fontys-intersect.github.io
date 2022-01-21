@@ -21,6 +21,7 @@ export const SmartLock = () => (
                 <ListItem>Vulnerabilities</ListItem>
                 <ListItem>Possible fixes</ListItem>
                 <ListItem>Best practices</ListItem>
+                <ListItem>Conclusion</ListItem>
             </UnorderedList>
             <br/>
             <Text fontSize={'xl'} fontWeight={"bold"}>Strengths</Text>

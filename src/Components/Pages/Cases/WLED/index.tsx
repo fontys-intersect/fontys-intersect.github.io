@@ -41,6 +41,7 @@ export const Wled = () => (
         <ListItem>Vulnerabilities</ListItem>
         <ListItem>Possible Fixes</ListItem>
         <ListItem>Best practices</ListItem>
+        <ListItem>Conclusion</ListItem>
       </UnorderedList>
       <br />
       <Text fontSize="l">
