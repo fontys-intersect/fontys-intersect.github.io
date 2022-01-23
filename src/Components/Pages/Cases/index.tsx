@@ -64,7 +64,7 @@ export const CaseOverview = () => (
         </ListItem>
         <ListItem>
           <Link href="#/case/printer" textColor={"blue"}>
-            HP Printer Jett&nbsp;
+            HP Laserjet Printer&nbsp;
           </Link>
           (Smart Office)
         </ListItem>
@@ -94,13 +94,13 @@ export const CaseOverview = () => (
           (Smart Industry)
         </ListItem>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/smartscreen" textColor={"blue"}>
             Smartscreen&nbsp;
           </Link>
           (Smart Office)
         </ListItem>
         <ListItem>
-          <Link href="#" textColor={"blue"}>
+          <Link href="#/case/smartwatch" textColor={"blue"}>
             Smartwatch&nbsp;
           </Link>
           (Smart Home)

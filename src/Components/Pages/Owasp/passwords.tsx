@@ -48,9 +48,21 @@ export const Password = () => (
       <Text fontSize={"l"}>
         This vulnerability has been found in the following cases:
         <UnorderedList>
-          <ListItem>WLED</ListItem>
-          <ListItem>HP LaserJet Printer</ListItem>
-          <ListItem>Airquality</ListItem>
+          <ListItem>
+            <Link href="#/case/wled" textColor={"blue"}>
+              WLED
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="#/case/printer" textColor={"blue"}>
+              HP Laserjet
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="#/case/airquality" textColor={"blue"}>
+              Airquality
+            </Link>
+          </ListItem>
         </UnorderedList>
       </Text>
       <Divider m={2} />

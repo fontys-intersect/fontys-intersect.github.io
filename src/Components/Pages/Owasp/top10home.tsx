@@ -71,10 +71,6 @@ export const OwaspHome = () => (
       <Text fontSize={"xl"}>
         The bibliography according to this page is <br />
         <UnorderedList>
-          {/* <ListItem>
-            INTERSECT. (z.d.). dcypher. Geraadpleegd op 10 december 2020, van
-            https://www.dcypher.nl/en/intersect
-          </ListItem> */}
           <ListItem>
             OWASP Internet Of Things TOP 10 2018. Geraadpleegd op 27 September 2020, van&nbsp;
             <Link href="https://owasp.org/www-pdf-archive/OWASP-IoT-Top-10-2018-final.pdf">

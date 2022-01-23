@@ -24,6 +24,14 @@ export const Storage = () => (
             <Text fontSize="3xl">Insecure Data Transfer and Storage</Text>
             <Text fontSize={"l"}> While dealing with sensitive data anywhere in the ecosystem, proper encryption and access control is a necessity. Even when the data is at rest, in transit, or during processing. Lack of encryption is an open invitation for hackers to expose and capture data. To make sure the data is protected at its fullest, manufacturers of IoT devices need to take the following actions into account to get complete security: establish encryption at all available levels, only use secure channels like SSH, sFTP and HTTPS, and consider the use one-time-use keys that are stored remotely.
             </Text>
+            <br />
+            <Text fontSize={"l"}>
+                This vulnerability has been found within the following cases:
+                <UnorderedList>
+                    <ListItem><Link href="#/case/wled" textColor={"blue"}>WLED</Link></ListItem>
+                    <ListItem><Link href="#/case/printer" textColor={"blue"}>HP Laserjet</Link></ListItem>
+                </UnorderedList>
+            </Text>
             <Divider m={2} />
             <Text fontSize="3xl"> Bibliography </Text>
             <Text fontSize={"xl"}>
