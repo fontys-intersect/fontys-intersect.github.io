@@ -12,113 +12,52 @@ import {
   export const Wireshark = () => (
     <Box w={'100%'} alignItems="center">
     <Container maxW={['100%', '80%']} p={4}>
-      <Text fontSize="3xl"> kopje </Text>
+    <Text fontSize="3xl"> Wireshark </Text>
+      <Text fontSize="2xl"> What is Wireshark? </Text>
       <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Wireshark is a tool that allows you to capture network traffic on a network interface on your pc. <br />
+      When you have captured this traffic you can read it out and look what kind of traffic these interfaces receive.
       </Text>
       <br />
-      <Text fontSize={'xl'}>Table of Contents</Text>
+      <Text fontSize="2xl"> What can Wireshark do? </Text>
+      <Text fontSize={'l'}>
+      With wireshark you can capture network traffic on a device selected by the user. <br />
+      The captured network traffic can then be sorted, filtered and looked through in detail. <br />
+      With this captured network traffic users can debug and analyze network traffic between devices.
+      </Text>
+      <br />
+      <Text fontSize="2xl"> Links: </Text>
       <UnorderedList>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
-        <ListItem>content</ListItem>
+        <ListItem>
+          <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="https://www.wireshark.org/#download">
+            Download page
+          </Link>
+        </ListItem>
+        <ListItem>
+          <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="https://www.wireshark.org/docs/">
+          Documentation
+          </Link>
+        </ListItem>
       </UnorderedList>
       <br />
-      <Text fontSize={'xl'}>kopje</Text>
-      <Text fontSize={'ll'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>kopje</Text>
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <br />
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        <br />
-        <UnorderedList>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
+      <Text fontSize={'2xl'}>Cases where Wireshark whas used:</Text>
+      <UnorderedList>
+          <ListItem>
+            <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="#/case/printer">
+              HP laserjet printer
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="#/case/wled">
+              WLED
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="#/case/boschsiemens">
+              Bosch Siemens
+            </Link>
+          </ListItem>
         </UnorderedList>
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>kopje 1</Text>
-      <Text fontSize={'l'}>
-        <UnorderedList>
-          <ListItem>listitem</ListItem>
-          <ListItem>listitem</ListItem>
-        </UnorderedList>
-      </Text>
-      <br />
-      <Text fontSize={'xl'}>kopje 1</Text>
-      <Text fontSize={'l'} fontWeight={'bold'}>
-        kopje 2
-      </Text>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.{' '}
-      </Text>
-      <Link fontSize={'l'} fontWeight={'bold'} href="/fontys-intersect-2021/#/case/smartlock">
-        link kopje 2
-      </Link>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <Link fontSize={'l'} fontWeight={'bold'} href="/fontys-intersect-2021/#/case/boschsiemens">
-        link kopje 2
-      </Link>
-      <Text fontSize={'l'}>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      </Text>
-      <Image
-            src={"/fontys-intersect-2021/assets/images/intersectlogo.png"}
-            alt="test"
-            h="auto" //height
-            w="auto" //width
-            marginLeft={"10%"}
-        />
     </Container>
   </Box>
     

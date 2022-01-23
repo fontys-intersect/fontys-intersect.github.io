@@ -26,6 +26,8 @@ export const SolarEdge = () => (
             <Text fontSize={'xl'} fontWeight={"bold"}>Table of Contents</Text>
             <UnorderedList>
                 <ListItem>Strengths</ListItem>
+                <ListItem>Vulnerabilities</ListItem>
+                <ListItem>Best practices</ListItem>
                 <ListItem>Conclusion</ListItem>
             </UnorderedList>
             <br/>
@@ -35,6 +37,35 @@ export const SolarEdge = () => (
                 doesn’t show any data being send to intercept. Also the inverter itself has some implementation of a
                 firewall that blocks NMAP from properly scanning and displaying open ports.
 
+            </Text>
+            <br/>
+
+            <Text fontSize={"xl"} fontWeight={"bold"}>
+                Vulnerabilities
+            </Text>
+            <Text fontSize={"l"}>
+                The vulnerabilities, in this case, were not found, due to testing restrictions.
+            </Text>
+            <br/>
+            <Text id={"Bestpractices"} fontSize={'xl'} fontWeight={"bold"}>Best practices</Text>
+            <Text>
+                The Bosch Siemens devices and surrounding environment show good usage of:{" "}
+                <Link textColor={"blue"}  href="/#/bestpractices/splitdev">
+                    split development and production environments
+                </Link>
+                ,{" "}
+                <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/authentication">
+                    authentication
+                </Link>{", "}
+                <Link textColor={"blue"}  href="/fontys-intersect-2021/#/bestpractices/authorization">
+                    authorization
+                </Link>
+                ,{" "}
+                <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/errorhandling">
+                    error handling
+                </Link>
+                ,{" "}
+                ; more about these best practices can be read on their respective pages.
             </Text>
             <br/>
             <Text fontSize="xl" fontWeight={"bold"}>
