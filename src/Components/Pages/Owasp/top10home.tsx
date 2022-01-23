@@ -12,11 +12,11 @@ import {
 } from "@chakra-ui/react";
 
 export const OwaspHome = () => (
-  <Box w={"100%"} alignItems="center">
+  <Box w={"100%"} h={"100vh"} alignItems="center">
     <Image
       src={"/fontys-intersect-2021/assets/images/owasp-logo.png"}
       alt="test"
-      h={"15%"}
+      h={"10%"}
       w={"15%"}
       marginLeft={"10%"}
       marginTop={"1%"}
@@ -86,6 +86,5 @@ export const OwaspHome = () => (
         </UnorderedList>
       </Text>
     </Container>
-    <Container h={"200px"}></Container>
   </Box>
 );

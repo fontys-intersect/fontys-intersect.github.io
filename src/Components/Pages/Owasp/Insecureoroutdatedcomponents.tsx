@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 
 export const Outdated = () => (
-  <Box w={"100%"} alignItems="center">
+  <Box w={"100%"} h={"100vh"} alignItems="center">
     <Image
       src={"/fontys-intersect-2021/assets/images/owasp-logo.png"}
       alt="test"
@@ -31,7 +31,15 @@ export const Outdated = () => (
         to quickly identify the issue and prevent big attacks coming from these
         components{" "}
       </Text>
-      <UnorderedList>
+      <br />
+      <Text fontSize={"l"}>
+        A significant vulnerability that affects millions of IoT smart devices is the use of outdated or unsecured software, including third-party components, libraries, and frameworks used by manufacturers to build IoT devices. This software is difficult to track and is vulnerable to cyber-attacks if it is not correctly known or managed
+      </Text>
+      <br />
+      <Text fontSize={"xl"}>Cases</Text>
+      <Text fontSize={"l"}>
+        This vulnerability has been found in the following cases:
+        <UnorderedList>
           <ListItem>
             <Link href="#/case/airquality" textColor={"blue"}>
               Airquality
@@ -43,15 +51,20 @@ export const Outdated = () => (
             </Link>
           </ListItem>
         </UnorderedList>
+      </Text>
+
       <Divider m={2} />
       <Text fontSize="3xl"> Bibliography </Text>
       <Text fontSize={"xl"}>
         The bibliography according to this page is <br />
         <UnorderedList>
-          {/* <ListItem>
-            INTERSECT. (z.d.). dcypher. Geraadpleegd op 10 december 2020, van
-            https://www.dcypher.nl/en/intersect
-          </ListItem> */}
+          <ListItem>
+            KeyFactor. Top 10 IoT Vulnerabilities in your devices. Retrieved
+            January 21, 2022, from&nbsp;
+            <Link href="https://www.keyfactor.com/blog/top-10-iot-vulnerabilities-in-your-devices/#:~:text=of%20Physical%20Hardening-,Lack%20of%20a%20Secure%20Update%20Mechanism,to%20securely%20update%20the%20device.&text=Some%20devices%20may%20have%20reached,critical%20to%20addressing%20this%20vulnerability.">
+              Keyfactor <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
           <ListItem>
             Govindraj Basatwar - Global Business Head. (2021, September 17).
             Guide to OWASP IoT Top 10 for proactive security. NWO. Retrieved

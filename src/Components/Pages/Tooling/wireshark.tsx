@@ -11,7 +11,7 @@ import {
   
   export const Wireshark = () => (
     <Box w={'100%'} alignItems="center">
-    <Container maxW={['100%', '80%']} p={4}>
+    <Container maxW={['100%', '80%']} h={"100vh"} p={4}>
     <Text fontSize="3xl"> Wireshark </Text>
       <Text fontSize="2xl"> What is Wireshark? </Text>
       <Text fontSize={'l'}>
@@ -40,7 +40,7 @@ import {
         </ListItem>
       </UnorderedList>
       <br />
-      <Text fontSize={'2xl'}>Cases where Wireshark whas used:</Text>
+      <Text fontSize={'2xl'}>Cases where Wireshark was used:</Text>
       <UnorderedList>
           <ListItem>
             <Link fontSize={'l'} textColor={"blue"} fontWeight={'bold'} href="#/case/printer">

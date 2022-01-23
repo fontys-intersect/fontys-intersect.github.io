@@ -51,11 +51,18 @@ export default function Navbar() {
           />
           <HStack spacing={8} alignItems={"center"}>
             <Box>
-              <Image
-                boxSize="35px"
-                src={"/fontys-intersect-2021/assets/images/random.png"}
-                alt="Logo"
-              />
+            <Link
+                px={2}
+                py={1}
+                rounded={"md"}
+                _hover={{
+                  textDecoration: "none",
+                  bg: useColorModeValue("gray.200", "gray.700"),
+                }}
+                href={"/fontys-intersect-2021/#/"}
+              >
+                Fontys Intersect
+              </Link>
             </Box>
             <HStack
               as={"nav"}
@@ -74,9 +81,6 @@ export default function Navbar() {
               >
                 Home
               </Link>
-              {/* {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))} */}
               <Menu>
                 <MenuButton
                   // as={Button}

@@ -11,11 +11,11 @@ import {
 } from "@chakra-ui/react";
 
 export const Settings = () => (
-  <Box w={"100%"} alignItems="center">
+  <Box w={"100%"} h={"100vh"} alignItems="center">
     <Image
       src={"/fontys-intersect-2021/assets/images/owasp-logo.png"}
       alt="test"
-      h={"15%"}
+      h={"10%"}
       w={"15%"}
       marginLeft={"10%"}
       marginTop={"1%"}
@@ -33,6 +33,9 @@ export const Settings = () => (
         impact on the security of your devices, such as passwords
       </Text>
       <br />
+      Enabling a firewall router, disabling WPS, enabling the WPA2 security protocol, and using a strong Wi-Fi password are just some of these practices. It is also now possible to encrypt all traffic through your ISP by installing Virtual Private Networking (VPN) on your router.
+      <br />
+      <Text fontSize={"xl"}>Cases</Text>
       <Text fontSize={"l"}>
         This vulnerability has been found within the following cases:
         <UnorderedList>
@@ -42,7 +45,7 @@ export const Settings = () => (
             </Link>
           </ListItem>
           <ListItem>
-          <Link href="#/case/smartlockbt" textColor={"blue"}>
+            <Link href="#/case/smartlockbt" textColor={"blue"}>
               Bluetooth Smartlock
             </Link>
           </ListItem>
@@ -51,7 +54,7 @@ export const Settings = () => (
               HP Laserjet
             </Link>
             <Link href="#/case/airquality" textColor={"blue"}>
-                Airquality
+              Airquality
             </Link>
           </ListItem>
         </UnorderedList>
@@ -61,10 +64,13 @@ export const Settings = () => (
       <Text fontSize={"xl"}>
         The bibliography according to this page is <br />
         <UnorderedList>
-          {/* <ListItem>
-            INTERSECT. (z.d.). dcypher. Geraadpleegd op 10 december 2020, van
-            https://www.dcypher.nl/en/intersect
-          </ListItem> */}
+          <ListItem>
+            KeyFactor. Top 10 IoT Vulnerabilities in your devices. Retrieved
+            January 21, 2022, from&nbsp;
+            <Link href="https://www.keyfactor.com/blog/top-10-iot-vulnerabilities-in-your-devices/#:~:text=of%20Physical%20Hardening-,Lack%20of%20a%20Secure%20Update%20Mechanism,to%20securely%20update%20the%20device.&text=Some%20devices%20may%20have%20reached,critical%20to%20addressing%20this%20vulnerability.">
+              Keyfactor <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
           <ListItem>
             Govindraj Basatwar - Global Business Head. (2021, September 17).
             Guide to OWASP IoT Top 10 for proactive security. NWO. Retrieved

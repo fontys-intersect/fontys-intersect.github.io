@@ -15,8 +15,8 @@ export const Physical = () => (
     <Image
       src={"/fontys-intersect-2021/assets/images/owasp-logo.png"}
       alt="test"
-      h={"8%"}
-      w={"24%"}
+      h={"10%"}
+      w={"15%"}
       marginLeft={"10%"}
       marginTop={"1%"}
     />
@@ -33,23 +33,41 @@ export const Physical = () => (
         it right, it lacks physical hardening. In some cases IoT devices can
         contain USB ports, which can be used to perform an attack on the device
         with the use of infected USB drives.
+        <br />
+        In particular, IoT devices are vulnerable because they lack the necessary built-in security to counter threats. Unlike our phones, laptops, and personal computers, many IoT devices operate unattended, making it easier for criminals to tamper with the devices and go undetected.
+        <br />
+        Security protocols protect data while transmitted across networks but do not protect data while stored on the device. Massive data breaches resulted from data recovered from stolen or discarded equipment.
+        <br />
+        <br />
+        A significant hardware vulnerability exists in both consumer and industrial control systems with unrestricted access to the universal asynchronous receiver transmitter (UART), allowing them to change the device boot sequences. By modifying the boot sequences, hackers can gain low-level access to the device and extract log-in information.
+        <br /> <br />
+        One way to achieve strong IoT hardware security is to store keys in Trusted Platform Modules (TPMs) and Trusted Execution Environments (TEE). TPM is essentially a chip installed on an IoT device near the CPU. It’s mainly used for cryptographic operations that create a security key, save it, store data, and other related operations. They can ensure the integrity of the disk encryption and password protection platform.
       </Text>
-      <Divider m={2} />
-      <UnorderedList>
-        <ListItem>
-          <Link href="#/case/smartlock" textColor={"blue"}>
-            Smart Biometric Lock
-          </Link>
-        </ListItem>
-      </UnorderedList>
+      <br />
+      <Text fontSize={"xl"}>Cases</Text>
+      <Text fontSize={"l"}>
+        This vulnerability has been found in the following cases:
+        <UnorderedList>
+          <ListItem>
+            <Link href="#/case/smartlock" textColor={"blue"}>
+              Smart Biometric Lock
+            </Link>
+          </ListItem>
+        </UnorderedList>
+      </Text>
+      <br />
+      <Divider />
       <Text fontSize="3xl"> Bibliography </Text>
       <Text fontSize={"xl"}>
         The bibliography according to this page is <br />
         <UnorderedList>
-          {/* <ListItem>
-            INTERSECT. (z.d.). dcypher. Geraadpleegd op 10 december 2020, van
-            https://www.dcypher.nl/en/intersect
-          </ListItem> */}
+          <ListItem>
+            KeyFactor. Top 10 IoT Vulnerabilities in your devices. Retrieved
+            January 21, 2022, from&nbsp;
+            <Link href="https://www.keyfactor.com/blog/top-10-iot-vulnerabilities-in-your-devices/#:~:text=of%20Physical%20Hardening-,Lack%20of%20a%20Secure%20Update%20Mechanism,to%20securely%20update%20the%20device.&text=Some%20devices%20may%20have%20reached,critical%20to%20addressing%20this%20vulnerability.">
+              Keyfactor <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
           <ListItem>
             Govindraj Basatwar - Global Business Head. (2021, September 17).
             Guide to OWASP IoT Top 10 for proactive security. NWO. Retrieved
