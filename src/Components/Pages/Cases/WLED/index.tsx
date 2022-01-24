@@ -58,13 +58,13 @@ export const Wled = () => (
       <Text fontSize={"l"}>
         Among these are:
         <UnorderedList>
-          <ListItem>  <Link textColor={"blue"}  href="/#/tooling/burpsuite">
+          <ListItem>  <Link textColor={"blue"}  href="/fontys-intersect-2021/#/tooling/burpsuite">
             Burp Suite
           </Link></ListItem>
-          <ListItem><Link textColor={"blue"}  href="/#/tooling/loic">
+          <ListItem><Link textColor={"blue"}  href="/fontys-intersect-2021/#/tooling/loic">
             LOIC
           </Link></ListItem>
-          <ListItem><Link textColor={"blue"}  href="/#/tooling/wireshark">
+          <ListItem><Link textColor={"blue"}  href="/fontys-intersect-2021/#/tooling/wireshark">
             WireShark
           </Link></ListItem>
         </UnorderedList>
@@ -170,7 +170,7 @@ export const Wled = () => (
 
       <Text>
         The following best practices were missing in this case:{" "}
-        <Link textColor={"blue"}  href="/#/bestpractices/splitdev">
+        <Link textColor={"blue"}  href="/fontys-intersect-2021/#/bestpractices/splitdev">
           split development and production environments
         </Link>
         ,{" "}

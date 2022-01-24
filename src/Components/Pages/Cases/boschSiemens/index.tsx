@@ -49,7 +49,7 @@ export const BoschSiemens = () => (
             </Text>
             <Text fontSize="l">
                 Home connect services are very strong in the manner of <Link textColor={"blue"}
-                                                                             href="/bestpractices/securedata">secure
+                                                                             href="/fontys-intersect-2021/#/bestpractices/securedata">secure
                 data transfer</Link> and storage.
                 For example when I connect to the home connect servers it uses tls :
             </Text>
@@ -61,7 +61,7 @@ export const BoschSiemens = () => (
             />
             <Text fontSize="l">
                 Every time the client connects to a home connect device it uses tls to <Link textColor={"blue"}
-                                                                                             href="/bestpractices/authentication">authenticate</Link> the
+                                                                                             href="/fontys-intersect-2021/#/bestpractices/authentication">authenticate</Link> the
                 application.
             </Text>
             <Text fontSize="l">
@@ -91,7 +91,7 @@ export const BoschSiemens = () => (
 
             <Text>
                 The Bosch Siemens devices and surrounding environment show good usage of:{" "}
-                <Link textColor={"blue"} href="/#/bestpractices/splitdev">
+                <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/splitdev">
                     split development and production environments
                 </Link>
                 ,{" "}

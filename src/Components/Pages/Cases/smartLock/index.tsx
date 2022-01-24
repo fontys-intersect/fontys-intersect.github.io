@@ -1,11 +1,11 @@
-import {ExternalLinkIcon} from '@chakra-ui/icons';
-import {Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link} from '@chakra-ui/react';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
+import { Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link } from '@chakra-ui/react';
 
 export const SmartLock = () => (
     <Box w={'100%'} alignItems="center">
         <Container maxW={['100%', '80%']} p={4}>
             <Text fontSize="3xl"> Smart Lock Biometric case</Text>
-            <br/>
+            <br />
             <Text fontSize="xl" fontWeight={"bold"}> Introduction </Text>
             <Text fontSize={'l'}>
                 The Master Lock 4901EURDLHCC is a biometric security lock that is used for locking something that needs
@@ -14,7 +14,7 @@ export const SmartLock = () => (
                 have access to this lock. It can also be unlocked by a preset code and it can store-up to 10
                 fingerprints.
             </Text>
-            <br/>
+            <br />
             <Text fontSize={'xl'} fontWeight={"bold"}>Table of Contents</Text>
             <UnorderedList>
                 <ListItem>Strengths</ListItem>
@@ -23,13 +23,13 @@ export const SmartLock = () => (
                 <ListItem>Best practices</ListItem>
                 <ListItem>Conclusion</ListItem>
             </UnorderedList>
-            <br/>
+            <br />
             <Text fontSize={'xl'} fontWeight={"bold"}>Strengths</Text>
             <Text fontSize={'l'}>
                 The device makes use of a biometric scanner, while this also has some downsides, generally it serves as
                 an additional form of secure authentication. The device also has a reset mechanism, that locks the device, when battery life is depleted.
             </Text>
-            <br/>
+            <br />
             <Text fontSize={'xl'} fontWeight={"bold"}>Vulnerabilities</Text>
             <Text fontSize="l" fontWeight="bold">
                 Insecure Default Settings
@@ -79,17 +79,17 @@ export const SmartLock = () => (
             <Text fontSize="l">
                 Have a confirm button that makes it so that the user has to confirm their code every time.
             </Text>
-            <br/>
+            <br />
             <Text fontSize="xl" fontWeight={"bold"}>
                 Best practices
             </Text>
             <Text fontSize="l">
                 The best practices found in this case are related to <Link color={"blue"}
-                                                                           href={"/fontys-intersect-2021/#/owasp/top/10"}>physical
-                hardening</Link> , and <Link color={"blue"} href={"/fontys-intersect-2021/#/owasp/top/9"}>default
-                settings</Link>; more about these best practices can be read on their respective pages.
+                    href={"/fontys-intersect-2021/#/owasp/top/10"}>physical
+                    hardening</Link> , and <Link color={"blue"} href={"/fontys-intersect-2021/#/owasp/top/9"}>default
+                        settings</Link>; more about these best practices can be read on their respective pages.
             </Text>
-            <br/>
+            <br />
             <Text fontSize="xl" fontWeight={"bold"}>
                 Conclusion
             </Text>

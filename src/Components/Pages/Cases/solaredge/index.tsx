@@ -50,7 +50,7 @@ export const SolarEdge = () => (
             <Text id={"Bestpractices"} fontSize={'xl'} fontWeight={"bold"}>Best practices</Text>
             <Text>
                 The Bosch Siemens devices and surrounding environment show good usage of:{" "}
-                <Link textColor={"blue"}  href="/#/bestpractices/splitdev">
+                <Link textColor={"blue"}  href="/fontys-intersect-2021/#/bestpractices/splitdev">
                     split development and production environments
                 </Link>
                 ,{" "}
