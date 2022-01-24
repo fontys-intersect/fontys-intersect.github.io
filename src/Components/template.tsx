@@ -6,6 +6,8 @@ import { Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link } f
 
 // The name of the component in the line underneath, represents the component which will be used in router.tsx
 export const Burpsuite = () => (
+    // height of the box or component (surrounding component) needs to be set to h={"100vh"}
+    // Otherwise the footer will be in the middle of the page depending on the amount of content on the page.
     <Box w={'100%'} alignItems="center">
         <Container maxW={['100%', '80%']} p={4}>
             <Text fontSize="3xl"> kopje </Text>
