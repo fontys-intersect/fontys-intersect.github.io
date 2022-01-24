@@ -1,7 +1,7 @@
 # Getting Started with the project
 
 This project has been set up using React Typescript base in combination with a UI library. In order to run this project a couple of things need to be installed;
-Markup : * An integrated development environment (IDE), preferably Visual studio code
+* An integrated development environment (IDE), preferably Visual studio code
          * Node Package Manager (NPM) and NodeJS
 
 
@@ -21,16 +21,16 @@ The website is deployed with the usage of Github Pages. This allows the develope
 ## Project Structure
 
 The website is made up of several pages, the content of the website can be found below the components tab.
-Markup: * src
-          * Components
-            * Footer
-            * NavBar
-            * Pages
-              * Articles
-              * BestPractices
-              * Cases
-              * Owasp
-              * Tooling
+* src
+  * Components
+    * Footer
+    * NavBar
+    * Pages
+      * Articles
+      * BestPractices
+      * Cases
+      * Owasp
+      * Tooling
               
 ## Creating new pages
 
