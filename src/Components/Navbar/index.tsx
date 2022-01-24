@@ -38,6 +38,13 @@ const NavLink = ({ children }: { children: ReactNode }) => (
 
 export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  // Links to different pages can be added to the header,
+  // Adding a single link (to an overview) can be done with the <Link> Tag
+  // Adding a dropdown can be done with the <Menu> tag
+  // The button to open the dropdown will be <MenuButton>
+  // Within this dropdown, you need to create a <MenuList> in which the
+  // <MenuItem> will be placed, these have to be specified with `as="a"`, this will
+  // create a link from the MenuItem without changing it's visuals etc.
 
   return (
     <>
