@@ -2,7 +2,7 @@
 
 This project has been set up using React Typescript base in combination with a UI library. In order to run this project a couple of things need to be installed;
 * An integrated development environment (IDE), preferably Visual studio code
-         * Node Package Manager (NPM) and NodeJS
+* Node Package Manager (NPM) and NodeJS
 
 
 ## Installing the project
