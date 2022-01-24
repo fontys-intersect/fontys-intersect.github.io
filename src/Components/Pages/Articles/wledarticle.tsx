@@ -1,14 +1,8 @@
-import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
   Box,
   Container,
   Image,
   Text,
-  Divider,
-  ListItem,
-  UnorderedList,
-  Link,
-  OrderedList,
 } from "@chakra-ui/react";
 
 export const WLEDArticle = () => (

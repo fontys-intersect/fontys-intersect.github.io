@@ -1,4 +1,3 @@
-import {ExternalLinkIcon} from "@chakra-ui/icons";
 import {
     Box,
     Container,
@@ -8,7 +7,6 @@ import {
     ListItem,
     UnorderedList,
     Link,
-    OrderedList,
 } from "@chakra-ui/react";
 
 export const Article = () => (
