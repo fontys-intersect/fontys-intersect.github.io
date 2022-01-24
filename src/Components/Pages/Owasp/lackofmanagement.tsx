@@ -13,7 +13,7 @@ import {
 export const Management = () => (
   <Box w={"100%"} h={"100vh"} alignItems="center">
     <Image
-      src={"/fontys-intersect-2021/assets/images/owasp-logo.png"}
+      src={"/assets/images/owasp-logo.png"}
       alt="test"
       h={"10%"}
       w={"15%"}

@@ -11,7 +11,7 @@ import {
 export const Wled = () => (
   <Box w={"100%"} alignItems="center" mb={"20px"}>
     <Image
-      src={"/fontys-intersect-2021/assets/images/wled_logo.png"}
+      src={"/assets/images/wled_logo.png"}
       alt="test"
       h={"15%"}
       w={"15%"}
@@ -56,13 +56,13 @@ export const Wled = () => (
       <Text fontSize={"l"}>
         Among these are:
         <UnorderedList>
-          <ListItem>  <Link textColor={"blue"}  href="/fontys-intersect-2021/#/tooling/burpsuite">
+          <ListItem>  <Link textColor={"blue"}  href="/#/tooling/burpsuite">
             Burp Suite
           </Link></ListItem>
-          <ListItem><Link textColor={"blue"}  href="/fontys-intersect-2021/#/tooling/loic">
+          <ListItem><Link textColor={"blue"}  href="/#/tooling/loic">
             LOIC
           </Link></ListItem>
-          <ListItem><Link textColor={"blue"}  href="/fontys-intersect-2021/#/tooling/wireshark">
+          <ListItem><Link textColor={"blue"}  href="/#/tooling/wireshark">
             WireShark
           </Link></ListItem>
         </UnorderedList>
@@ -125,7 +125,7 @@ export const Wled = () => (
         unable to work via the interface or client.
       </Text>
       <Image
-      src={"/fontys-intersect-2021/assets/images/Wled_Loic.png"}
+      src={"/assets/images/Wled_Loic.png"}
       alt="test"
       h={"50%"}
       w={"50%"}
@@ -144,14 +144,14 @@ export const Wled = () => (
         send these requests without any problem.
       </Text>
       <Image
-      src={"/fontys-intersect-2021/assets/images/Wled_burbsuit.gif"}
+      src={"/assets/images/Wled_burbsuit.gif"}
       alt="test"
       h={"50%"}
       w={"50%"}
     />
     <br />
     <Image
-      src={"/fontys-intersect-2021/assets/images/Wled_Leds_inf.png"}
+      src={"/assets/images/Wled_Leds_inf.png"}
       alt="test"
       h={"50%"}
       w={"50%"}
@@ -169,22 +169,22 @@ export const Wled = () => (
 
       <Text>
         The following best practices were missing in this case:{" "}
-        <Link textColor={"blue"}  href="/fontys-intersect-2021/#/bestpractices/splitdev">
+        <Link textColor={"blue"}  href="/#/bestpractices/splitdev">
           split development and production environments
         </Link>
         ,{" "}
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/authentication">
+        <Link textColor={"blue"} href="/#/bestpractices/authentication">
           authentication
         </Link>{", "}
-        <Link textColor={"blue"}  href="/fontys-intersect-2021/#/bestpractices/authorization">
+        <Link textColor={"blue"}  href="/#/bestpractices/authorization">
           authorization
         </Link>
         ,{" "}
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/errorhandling">
+        <Link textColor={"blue"} href="/#/bestpractices/errorhandling">
           error handling
         </Link>
         ,{" "}
-        <Link textColor={"blue"}  href="/fontys-intersect-2021/#/bestpractices/inputvalidation">
+        <Link textColor={"blue"}  href="/#/bestpractices/inputvalidation">
           input validation
         </Link>
         ; more about these best practices can be read on their respective pages.

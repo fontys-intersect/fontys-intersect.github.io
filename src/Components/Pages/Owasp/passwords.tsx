@@ -13,7 +13,7 @@ import {
 export const Password = () => (
   <Box w={"100%"} alignItems="center">
     <Image
-      src={"/fontys-intersect-2021/assets/images/owasp-logo.png"}
+      src={"/assets/images/owasp-logo.png"}
       alt="test"
       h={"15%"}
       w={"15%"}

@@ -66,7 +66,7 @@ export const AirQuality = () => (
 
                 <ListItem><Text fontSize={"l"} fontWeight={"bold"}>No Password rules </Text> There aren’t any rules for
                     the password when an account is created. This makes it possible to have a password with only one
-                    character or even no characters. This causes the creation of <Link href="/fontys-intersect-2021/#/owasp/top/1" textColor={"blue"}>insecure passwords</Link></ListItem>
+                    character or even no characters. This causes the creation of <Link href="/#/owasp/top/1" textColor={"blue"}>insecure passwords</Link></ListItem>
 
                 <ListItem><Text fontSize={"l"} fontWeight={"bold"}>Input filtering </Text> An attacker can omit certain
                     parameters when making new users, sensors or locations, making these invalid.</ListItem>
@@ -98,13 +98,13 @@ export const AirQuality = () => (
             <Text id={"Bestpractices"} fontSize={'xl'}>Best practices</Text>
             <Text fontSize="l">
                 The best practices found in this case are <Link textColor={"blue"}
-                href={"/fontys-intersect-2021/#/bestpractices/splitdev"}>split development and production</Link>,
+                href={"/#/bestpractices/splitdev"}>split development and production</Link>,
                 <Link textColor={"blue"}
-                    href={"/fontys-intersect-2021/#/bestpractices/authentication"}> authentication</Link>  <Link textColor={"blue"}
-                href={"/fontys-intersect-2021/#/bestpractices/authorization"}>authorization</Link>, <Link textColor={"blue"}
-                href={"/fontys-intersect-2021/#/bestpractices/errorhandling"}>error handling</Link>, <Link textColor={"blue"}
-                href={"/fontys-intersect-2021/#/bestpractices/inputvalidation"}>input validation</Link> and <Link textColor={"blue"}
-                href={"/fontys-intersect-2021/#/bestpractices/secretmanagement"}>secret management</Link> more about these best
+                    href={"/#/bestpractices/authentication"}> authentication</Link>  <Link textColor={"blue"}
+                href={"/#/bestpractices/authorization"}>authorization</Link>, <Link textColor={"blue"}
+                href={"/#/bestpractices/errorhandling"}>error handling</Link>, <Link textColor={"blue"}
+                href={"/#/bestpractices/inputvalidation"}>input validation</Link> and <Link textColor={"blue"}
+                href={"/#/bestpractices/secretmanagement"}>secret management</Link> more about these best
                 practices can be read on their respective pages.
             </Text>
         </Container>

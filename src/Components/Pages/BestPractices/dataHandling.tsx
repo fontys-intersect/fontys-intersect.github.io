@@ -48,7 +48,7 @@ export const DataHandling = () => (
       </Text>
       <br />
       <Text fontSize={'xl'}>Cases</Text>
-      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/solaredge">
+      <Link fontSize={"l"} fontWeight={"bold"} href="/#/case/solaredge">
         solarEdge solar panels case
       </Link>
       <Text fontSize={'l'}>
@@ -56,7 +56,7 @@ export const DataHandling = () => (
         clear manner using a dashboard. This is a good example of data transparency.
       </Text>
       <br />
-      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/gooveysmarttemp">
+      <Link fontSize={"l"} fontWeight={"bold"} href="/#/case/gooveysmarttemp">
         Goovey thermostat case
       </Link>
       <Text fontSize={'l'}>

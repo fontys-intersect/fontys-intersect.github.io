@@ -12,7 +12,7 @@ import {
 export const Article = () => (
     <Box w={"100%"} alignItems="center">
         <Image
-            src={"/fontys-intersect-2021/assets/images/owasp-logo.png"}
+            src={"/assets/images/owasp-logo.png"}
             alt="test"
             h={"15%"}
             w={"15%"}
@@ -38,13 +38,13 @@ export const Article = () => (
             <UnorderedList>
                 <ListItem>
 
-                    <Link href="/fontys-intersect-2021/#/article/wled" textColor={"blue"}>
+                    <Link href="/#/article/wled" textColor={"blue"}>
                         WLED&nbsp;
                     </Link>
                     (Smart Home)
                 </ListItem>
                 <ListItem>
-                    <Link href="/fontys-intersect-2021/#/article/network" textColor={"blue"}>
+                    <Link href="/#/article/network" textColor={"blue"}>
                         Home Network&nbsp;
                     </Link>
                     (Smart Home)

@@ -16,7 +16,7 @@ export const NetworkSetup = () => (
             <br />
             <Text fontSize="xl"> Network diagram </Text>
             <Image
-                src={"/fontys-intersect-2021/assets/images/NetworkDiagram.png"}
+                src={"/assets/images/NetworkDiagram.png"}
                 alt="test"
                 h="auto" //height
                 w="auto" //width

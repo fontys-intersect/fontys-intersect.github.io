@@ -67,7 +67,7 @@ export const ErrorHandling = () => (
       </Text>
       <br />
       <Text fontSize={"xl"}>Cases</Text>
-      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/wled">
+      <Link fontSize={"l"} fontWeight={"bold"} href="/#/case/wled">
         WLED
       </Link>
       <Text fontSize={"l"}>

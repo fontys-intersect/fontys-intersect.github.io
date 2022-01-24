@@ -100,14 +100,14 @@ export const Burpsuite = () => (
                 sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.{' '}
             </Text>
             {/* Links can be changed in terms of visuals etc, href will be the link towards the webpage */}
-            <Link fontSize={'l'} fontWeight={'bold'} href="/fontys-intersect-2021/#/case/smartlock">
+            <Link fontSize={'l'} fontWeight={'bold'} href="/#/case/smartlock">
                 link kopje 2
             </Link>
             <Text fontSize={'l'}>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
                 sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
             </Text>
-            <Link fontSize={'l'} fontWeight={'bold'} href="/fontys-intersect-2021/#/case/boschsiemens">
+            <Link fontSize={'l'} fontWeight={'bold'} href="/#/case/boschsiemens">
                 link kopje 2
             </Link>
             <Text fontSize={'l'}>
@@ -117,7 +117,7 @@ export const Burpsuite = () => (
             {/* Image tag; contains the source of the image (this image can be found in the assets/image folder),
                 Alt will contain the text if the image can't be loaded */}
             <Image
-                src={"/fontys-intersect-2021/assets/images/intersectlogo.png"}
+                src={"/assets/images/intersectlogo.png"}
                 alt="test"
                 h="auto" //height
                 w="auto" //width

@@ -158,14 +158,14 @@ export const Authentication = () => (
       <Text fontSize={"l"}>
         The smartwatches had bad authentication, the user could access and abuse certain interfaces.
       </Text>
-      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/smartlock">
+      <Link fontSize={"l"} fontWeight={"bold"} href="/#/case/smartlock">
         Smart Lock
       </Link>
       <Text fontSize={"l"}>
         The smart lock had bad authentication, the user could brute force their way into the system and the password requirements were almost entirely absent.
 
       </Text>
-      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/boschsiemens">        
+      <Link fontSize={"l"} fontWeight={"bold"} href="/#/case/boschsiemens">        
         Bosch Siemens
       </Link>
       <Text fontSize={"l"}>

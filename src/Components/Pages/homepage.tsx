@@ -4,7 +4,7 @@ import {Box, Container, Image, Text, Divider, ListItem, UnorderedList, Link} fro
 export const Homepage = () => (
     <Box w={"100%"} alignItems="center">
         <Image
-            src={"/fontys-intersect-2021/assets/images/intersectlogo.png"}
+            src={"/assets/images/intersectlogo.png"}
             alt="test"
             h="auto"
             w="auto"

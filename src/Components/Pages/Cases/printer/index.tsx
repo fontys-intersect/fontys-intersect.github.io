@@ -20,7 +20,7 @@ export const Printer = () => (
         was created. The pentesters had full network access and control.
         Physical access to the printer was also granted to the pentesters.
         <Image
-          src={"/fontys-intersect-2021/assets/images/HpArchitecture.png"}
+          src={"/assets/images/HpArchitecture.png"}
           alt="test"
           h={"50%"}
           w={"50%"}
@@ -58,14 +58,14 @@ export const Printer = () => (
         sent the package and some more information regarding the packages.
       </Text>
       <Image
-        src={"/fontys-intersect-2021/assets/images/printer_message_one.png"}
+        src={"/assets/images/printer_message_one.png"}
         alt="test"
         h={"150%"}
         w={"150%"}
       />
       <br />
       <Image
-        src={"/fontys-intersect-2021/assets/images/printer_message_two.png"}
+        src={"/assets/images/printer_message_two.png"}
         alt="test"
         h={"150%"}
         w={"150%"}
@@ -95,13 +95,13 @@ export const Printer = () => (
       <Text fontSize="xl" fontWeight={"Bold"}>Best practices</Text>
       <Text fontSize="l">
         For the printer we found that the communication between the printer and
-        the user device should be <Link color={"blue"} href={"/fontys-intersect-2021/#/bestpractices/securedata"}>encrypted</Link>. This will prevent plain text
+        the user device should be <Link color={"blue"} href={"/#/bestpractices/securedata"}>encrypted</Link>. This will prevent plain text
         transmissions, hereby making the “man in the middle” attack obsolete.
         The printer sends packages containing plain text information about the
         sender, this can be prevented with the usage of{" "}
         <Link
           textColor={"blue"}
-          href="/fontys-intersect-2021/#/bestpractices/securedata"
+          href="/#/bestpractices/securedata"
         >
           secure data transfer and storage
         </Link>
@@ -110,7 +110,7 @@ export const Printer = () => (
         not be compromised during the call. Beside the lack of secure data
         transfer, the system does not require any{" "}
         <Link
-          href="/fontys-intersect-2021/#/bestpractices/authentication"
+          href="/#/bestpractices/authentication"
           textColor={"blue"}
         >
           authentication
@@ -120,7 +120,7 @@ export const Printer = () => (
       <br />
       <Text fontSize="xl" fontWeight={"Bold"}>Conclusion</Text>
       <Text fontSize="l">
-        During the Printer research assignment signs of <Link  color={"blue"} href={"/fontys-intersect-2021/#/bestpractices/securedata"}>insecure transmissions</Link> were found. <Link  color={"blue"} href={"/fontys-intersect-2021/#/bestpractices/authentication"}>Authentication </Link> was also not properly done.
+        During the Printer research assignment signs of <Link  color={"blue"} href={"/#/bestpractices/securedata"}>insecure transmissions</Link> were found. <Link  color={"blue"} href={"/#/bestpractices/authentication"}>Authentication </Link> was also not properly done.
         The printer is therefore quite insecure. By applying concepts of the best practices mentioned. The overall security can be improved.
       </Text>
       <br />

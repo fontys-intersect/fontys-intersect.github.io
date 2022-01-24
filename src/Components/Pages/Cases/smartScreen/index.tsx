@@ -34,7 +34,7 @@ export const SmartScreen = () => (
                 was also granted to the pentesters. One of the screens has an android version as an operating system
                 while the other had a custom operating system.</Text>
             <Image
-                src={"/fontys-intersect-2021/assets/images/smart-screen.png"}
+                src={"/assets/images/smart-screen.png"}
                 alt="test"
                 h={"60%"}
                 w={"60%"}
@@ -73,7 +73,7 @@ export const SmartScreen = () => (
                     on the network can get a root shell on the smart screen. The company explained that the first
                     firmware version was a development version due to internal confusion.
                     <Image
-                        src={"/fontys-intersect-2021/assets/images/smart-screen-adb.png"}
+                        src={"/assets/images/smart-screen-adb.png"}
                         alt="test"
                         h={"40%"}
                         w={"40%"}
@@ -90,7 +90,7 @@ export const SmartScreen = () => (
                     possible to make the smart screen pull an update from the fake server. This can allow an attack
                     to add malware or corrupt the smart screen.
                     <Image
-                        src={"/fontys-intersect-2021/assets/images/smart-screen-fake-server.png"}
+                        src={"/assets/images/smart-screen-fake-server.png"}
                         alt="test"
                         h={"50%"}
                         w={"50%"}
@@ -112,15 +112,15 @@ export const SmartScreen = () => (
             <br/>
             <Text id={"Bestpractices"} fontSize={'xl'} fontWeight={'bold'}>Best practices</Text>
             <Text fontSize="l">
-                The best practice connected to the ADB port is <Link href={"/fontys-intersect-2021/#/bestpractices/splitdev"}>split development and production.</Link> This best practice
+                The best practice connected to the ADB port is <Link href={"/#/bestpractices/splitdev"}>split development and production.</Link> This best practice
                 describes why it is important to have this separation and how to do it.
 
-                The best practices connected to the firmware update are <Link href={"/fontys-intersect-2021/#/bestpractices/certificates"}>certificates</Link> and <Link href={"/fontys-intersect-2021/#/bestpractices/securedata"}>secure data transfer.</Link> Both
+                The best practices connected to the firmware update are <Link href={"/#/bestpractices/certificates"}>certificates</Link> and <Link href={"/#/bestpractices/securedata"}>secure data transfer.</Link> Both
                 these best practices describe the importance of encryption, they both focus on a different part but
                 they are both connected to this case. The Certificate best practice is the most important one for
                 this vulnerability.
 
-                The last best practice that is applicable to this case is <Link href={"/fontys-intersect-2021/#/bestpractices/versionupdate"}>version update.</Link> There were a few
+                The last best practice that is applicable to this case is <Link href={"/#/bestpractices/versionupdate"}>version update.</Link> There were a few
                 outdated libraries that were used, but all vulnerabilities for this library seem to be patched.
                 However it stays important to update all libraries used to profit from their security fixes.
 

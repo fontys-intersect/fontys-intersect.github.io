@@ -58,7 +58,7 @@ export const GooveySmartTemp = () => (
             <Text fontSize="l">
                 During the research of this product, we noticed the use of{" "}
                 <Link
-                    href="/fontys-intersect-2021/#/bestpractices/securedata" fontWeight={"Bold"}
+                    href="/#/bestpractices/securedata" fontWeight={"Bold"}
                     textColor={"blue"}
                 >
                     Secure data transfer

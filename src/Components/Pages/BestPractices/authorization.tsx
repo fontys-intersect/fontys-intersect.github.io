@@ -107,7 +107,7 @@ export const Authorization = () => (
         all resources.
       </Text>
       <br />
-      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/wled">
+      <Link fontSize={"l"} fontWeight={"bold"} href="/#/case/wled">
         WLED
       </Link>
       <Text fontSize={"l"}>The session of a user was never checked</Text>

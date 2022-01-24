@@ -41,7 +41,7 @@ export const SmartWatch = () => (
             <ListItem><Text fontSize={"l"} fontWeight={"bold"}>Outdated OS </Text> The OS was o utdated, this allowed unauthorized access to methods from some interfaces on the watch because of a lack of security implementations regarding the D-Bus structure of the watch.</ListItem>
             <ListItem><Text fontSize={"l"} fontWeight={"bold"}>Unauthorized Access to Interfaces  </Text> Some interfaces on the watch did not need authorized access to be able to call their methods, therefore the attack could write malware that calls these methods to receive and change information like: contact info, screenshots of the current screen, change the Bluetooth of wifi connection and more, depending on the interface.</ListItem>
             <Image
-                src={"/fontys-intersect-2021/assets/images/smartwatch-diagram.png"}
+                src={"/assets/images/smartwatch-diagram.png"}
                 alt="test"
                 h={"60%"}
                 w={"60%"}
@@ -56,7 +56,7 @@ export const SmartWatch = () => (
         <br/>
         <Text id={"Bestpractices"} fontSize={'xl'} fontWeight={"bold"}>Best practices</Text>
         <Text fontSize="l" >
-            The Smartwatch should be updated when given the chance to as referred to in the <Link textColor={"blue"} href={"/fontys-intersect-2021/#/bestpractices/versionupdate"}>version update</Link> best practice.
+            The Smartwatch should be updated when given the chance to as referred to in the <Link textColor={"blue"} href={"/#/bestpractices/versionupdate"}>version update</Link> best practice.
 
             Always set the automatic update option on the phone smartwatch app to “ON”, making sure the user does not have to think about whether he has to update his watch or not. And if the user has one, link the account to the smartwatch app on the phone. This way the user can erase their data, or transfer their data to a new watch safely. </Text>
     </Container>

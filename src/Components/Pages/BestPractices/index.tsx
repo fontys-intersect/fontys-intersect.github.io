@@ -21,18 +21,18 @@ export const BestPractices = () => (
       </Text>
       <br />
       <UnorderedList>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/authentication"><ListItem>Authentication</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/authorization"><ListItem>Authorization</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/securedata"><ListItem>Secure data transfer</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/certificates"><ListItem>Certificates</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/errorhandling"><ListItem>Error handling</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/inputvalidation"><ListItem>Input validation</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/splitdev"><ListItem>Split development and production environments</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/monitoring"><ListItem>Monitoring and Logging</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/versionupdate"><ListItem>Version update</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/secretmanagement"><ListItem>Secret Management</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/privacy"><ListItem>Privacy by default</ListItem></Link>
-        <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/datahandling"><ListItem>Data handling and transparency</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/authentication"><ListItem>Authentication</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/authorization"><ListItem>Authorization</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/securedata"><ListItem>Secure data transfer</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/certificates"><ListItem>Certificates</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/errorhandling"><ListItem>Error handling</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/inputvalidation"><ListItem>Input validation</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/splitdev"><ListItem>Split development and production environments</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/monitoring"><ListItem>Monitoring and Logging</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/versionupdate"><ListItem>Version update</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/secretmanagement"><ListItem>Secret Management</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/privacy"><ListItem>Privacy by default</ListItem></Link>
+        <Link textColor={"blue"} href="/#/bestpractices/datahandling"><ListItem>Data handling and transparency</ListItem></Link>
       </UnorderedList>
       <br />
     </Container>

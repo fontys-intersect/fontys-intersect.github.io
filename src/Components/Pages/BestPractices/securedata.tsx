@@ -114,7 +114,7 @@ export const SecData = () => (
       </Text>
       <br />
       <Text fontSize={"xl"}>Cases</Text>
-      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/wled">
+      <Link fontSize={"l"} fontWeight={"bold"} href="/#/case/wled">
         WLED
       </Link>
       <Text fontSize={"l"}>
@@ -122,7 +122,7 @@ export const SecData = () => (
         communicates with an IoT device can be easily exploited.
       </Text>
       <br />
-      <Link fontSize={"l"} fontWeight={"bold"} href="/fontys-intersect-2021/#/case/boschsiemens">        
+      <Link fontSize={"l"} fontWeight={"bold"} href="/#/case/boschsiemens">        
         Bosch Siemens
       </Link>
       <Text fontSize={"l"}>

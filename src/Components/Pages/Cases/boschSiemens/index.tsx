@@ -24,7 +24,7 @@ export const BoschSiemens = () => (
             <br/>
             <Text fontSize={'xl'} fontWeight={'bold'}>Architecture</Text>
             <Image
-                src={'/fontys-intersect-2021/assets/images/BoschSiemensArchitecture.jpg'}
+                src={'/assets/images/BoschSiemensArchitecture.jpg'}
                 alt="test"
                 h={'60%'}
                 w={'60%'}
@@ -48,26 +48,26 @@ export const BoschSiemens = () => (
             </Text>
             <Text fontSize="l">
                 Home connect services are very strong in the manner of <Link textColor={"blue"}
-                                                                             href="/fontys-intersect-2021/#/bestpractices/securedata">secure
+                                                                             href="/#/bestpractices/securedata">secure
                 data transfer</Link> and storage.
                 For example when I connect to the home connect servers it uses tls :
             </Text>
             <Image
-                src={'/fontys-intersect-2021/assets/images/BoschSiemensWireshark1.png'}
+                src={'/assets/images/BoschSiemensWireshark1.png'}
                 alt="test"
                 h={'100%'}
                 w={'100%'}
             />
             <Text fontSize="l">
                 Every time the client connects to a home connect device it uses tls to <Link textColor={"blue"}
-                                                                                             href="/fontys-intersect-2021/#/bestpractices/authentication">authenticate</Link> the
+                                                                                             href="/#/bestpractices/authentication">authenticate</Link> the
                 application.
             </Text>
             <Text fontSize="l">
                 also all the data is encrypted :
             </Text>
             <Image
-                src={'/fontys-intersect-2021/assets/images/BoschSiemensWireshark2.png'}
+                src={'/assets/images/BoschSiemensWireshark2.png'}
                 alt="test"
                 h={'100%'}
                 w={'100%'}
@@ -90,18 +90,18 @@ export const BoschSiemens = () => (
 
             <Text>
                 The Bosch Siemens devices and surrounding environment show good usage of:{" "}
-                <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/splitdev">
+                <Link textColor={"blue"} href="/#/bestpractices/splitdev">
                     split development and production environments
                 </Link>
                 ,{" "}
-                <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/authentication">
+                <Link textColor={"blue"} href="/#/bestpractices/authentication">
                     authentication
                 </Link>{", "}
-                <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/authorization">
+                <Link textColor={"blue"} href="/#/bestpractices/authorization">
                     authorization
                 </Link>
                 ,{" "}
-                <Link textColor={"blue"} href="/fontys-intersect-2021/#/bestpractices/errorhandling">
+                <Link textColor={"blue"} href="/#/bestpractices/errorhandling">
                     error handling
                 </Link>
                 ,{" "}

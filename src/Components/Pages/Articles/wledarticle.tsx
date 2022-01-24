@@ -16,7 +16,7 @@ export const WLEDArticle = () => (
       <Text fontSize="l"> Student Fontys ICT & Cyber Security</Text>
       <br />
       <Image
-        src={"/fontys-intersect-2021/assets/images/WLEDArticle.png"}
+        src={"/assets/images/WLEDArticle.png"}
         alt="test"
         h={"100%"}
         w={"100%"}

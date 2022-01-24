@@ -29,7 +29,7 @@ const NavLink = ({ children }: { children: ReactNode }) => (
       bg: useColorModeValue("gray.200", "gray.700"),
     }}
     href={
-      "/fontys-intersect-2021/#/" + children?.toString().toLocaleLowerCase()
+      "/#/" + children?.toString().toLocaleLowerCase()
     }
   >
     {children}
@@ -67,7 +67,7 @@ export default function Navbar() {
                   textDecoration: "none",
                   bg: useColorModeValue("gray.200", "gray.700"),
                 }}
-                href={"/fontys-intersect-2021/#/"}
+                href={"/#/"}
               >
                 Fontys Intersect
               </Link>
@@ -85,7 +85,7 @@ export default function Navbar() {
                   textDecoration: "none",
                   bg: useColorModeValue("gray.200", "gray.700"),
                 }}
-                href={"/fontys-intersect-2021/#/"}
+                href={"/#/"}
               >
                 Home
               </Link> */}
@@ -106,14 +106,14 @@ export default function Navbar() {
                   IoT Security Research
                 </MenuButton>
                 <MenuList>
-                  <MenuItem as="a" href="/fontys-intersect-2021/#/owasp/top">
+                  <MenuItem as="a" href="/#/owasp/top">
                     OWASP
                   </MenuItem>
-                  <MenuItem as="a" href="/fontys-intersect-2021/#/article/home">
+                  <MenuItem as="a" href="/#/article/home">
                     {" "}
                     Articles
                   </MenuItem>
-                  <MenuItem as="a" href="/fontys-intersect-2021/#/tooling">
+                  <MenuItem as="a" href="/#/tooling">
                     {" "}
                     Tools used
                   </MenuItem>
@@ -127,7 +127,7 @@ export default function Navbar() {
                   textDecoration: "none",
                   bg: useColorModeValue("gray.200", "gray.700"),
                 }}
-                href={"/fontys-intersect-2021/#/bestpractices"}
+                href={"/#/bestpractices"}
               >
                 Best Practices
               </Link>
@@ -148,43 +148,43 @@ export default function Navbar() {
                   Cases
                 </MenuButton>
                 <MenuList onMouseEnter={onOpen} onMouseLeave={onClose}>
-                  <MenuItem as="a" href="/fontys-intersect-2021/#/case">
+                  <MenuItem as="a" href="/#/case">
                     Overview
                   </MenuItem>
                   <MenuDivider />
-                  <MenuGroup title="2021-2022"><MenuItem as="a" href="/fontys-intersect-2021/#/case/wled">
+                  <MenuGroup title="2021-2022"><MenuItem as="a" href="/#/case/wled">
                     WLED
                   </MenuItem>
                     <MenuItem
                       as="a"
-                      href="/fontys-intersect-2021/#/case/boschsiemens"
+                      href="/#/case/boschsiemens"
                     >
                       Bosch Siemens
                     </MenuItem>
                     <MenuItem
                       as="a"
-                      href="/fontys-intersect-2021/#/case/smartlock"
+                      href="/#/case/smartlock"
                     >
                       Smart Lock Biometric
                     </MenuItem>
                     <MenuItem
                       as="a"
-                      href="/fontys-intersect-2021/#/case/gooveysmarttemp"
+                      href="/#/case/gooveysmarttemp"
                     >
                       Goovey Smart Temp
                     </MenuItem>
-                    <MenuItem as="a" href="/fontys-intersect-2021/#/case/printer">
+                    <MenuItem as="a" href="/#/case/printer">
                       HP Printer
                     </MenuItem>
                     <MenuItem
                       as="a"
-                      href="/fontys-intersect-2021/#/case/smartlockbt"
+                      href="/#/case/smartlockbt"
                     >
                       Smart Lock Bluetooth
                     </MenuItem>
                     <MenuItem
                       as="a"
-                      href="/fontys-intersect-2021/#/case/solaredge"
+                      href="/#/case/solaredge"
                     >
                       Solar Edge
                     </MenuItem>

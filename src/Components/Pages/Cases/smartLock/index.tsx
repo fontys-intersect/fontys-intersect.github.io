@@ -84,8 +84,8 @@ export const SmartLock = () => (
             </Text>
             <Text fontSize="l">
                 The best practices found in this case are related to <Link color={"blue"}
-                    href={"/fontys-intersect-2021/#/owasp/top/10"}>physical
-                    hardening</Link> , and <Link color={"blue"} href={"/fontys-intersect-2021/#/owasp/top/9"}>default
+                    href={"/#/owasp/top/10"}>physical
+                    hardening</Link> , and <Link color={"blue"} href={"/#/owasp/top/9"}>default
                         settings</Link>; more about these best practices can be read on their respective pages.
             </Text>
             <br />

@@ -70,7 +70,7 @@ export const SmartLockBT = () => (
             </Text>
             <br/>
             <Image
-                src={'/fontys-intersect-2021/assets/images/BTlockCommunication.png'}
+                src={'/assets/images/BTlockCommunication.png'}
                 alt="test"
                 h={'30%'}
                 w={'30%'}
@@ -88,7 +88,7 @@ export const SmartLockBT = () => (
                 For bluetooth padlocks we found that the communication between the padlock and the application on the
                 phone
                 should be <Link color={"blue"}
-                                href={"/fontys-intersect-2021/#/bestpractices/securedata"}>encrypted</Link>. This will
+                                href={"/#/bestpractices/securedata"}>encrypted</Link>. This will
                 prevent plain text transmissions which will contain user credentials, hereby
                 making the “man in the middle” attack obsolete.
             </Text>
