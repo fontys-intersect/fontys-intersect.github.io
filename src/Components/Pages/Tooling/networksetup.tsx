@@ -1,8 +1,8 @@
 import { Box, Container, Image, Text } from '@chakra-ui/react';
 
 export const NetworkSetup = () => (
-    <Box w={'100%'} h={"180vh"}  alignItems="center">
-        <Container maxW={['100%', '80%']} h={"100vh"} p={4}>
+    <Box w={'100%'}  alignItems="center">
+        <Container maxW={['100%', '80%']} p={4}>
             <Text fontSize="3xl"> Network setup for monitoring test devices </Text>
             <Text fontSize="2xl"> Why use a monitoring network setup for testing </Text>
             <Text fontSize={'l'}>

@@ -33,36 +33,36 @@ export const OwaspHome = () => (
       <Text fontSize={"l"}>
         <OrderedList>
           <ListItem>
-            <Link href="/fontys-intersect-2021/#/owasp/top/1">
+            <Link textColor={"blue"} href="/fontys-intersect-2021/#/owasp/top/1">
               Weak, Guessable, or Hardcoded Passwords
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/fontys-intersect-2021/#/owasp/top/2">Insecure Network Services</Link>
+            <Link textColor={"blue"} href="/fontys-intersect-2021/#/owasp/top/2">Insecure Network Services</Link>
           </ListItem>
           <ListItem>
-            <Link href="/fontys-intersect-2021/#/owasp/top/3">Insecure Ecosystem Interfaces</Link>
+            <Link textColor={"blue"} href="/fontys-intersect-2021/#/owasp/top/3">Insecure Ecosystem Interfaces</Link>
           </ListItem>
           <ListItem>
-            <Link href="/fontys-intersect-2021/#/owasp/top/4">Lack of Secure Update Mechanism</Link>
+            <Link textColor={"blue"} href="/fontys-intersect-2021/#/owasp/top/4">Lack of Secure Update Mechanism</Link>
           </ListItem>
           <ListItem>
-            <Link href="/fontys-intersect-2021/#/owasp/top/5">Use of Insecure or Outdated Components</Link>
+            <Link textColor={"blue"} href="/fontys-intersect-2021/#/owasp/top/5">Use of Insecure or Outdated Components</Link>
           </ListItem>
           <ListItem>
-            <Link href="/fontys-intersect-2021/#/owasp/top/6">Insufficient Privacy Protection</Link>
+            <Link textColor={"blue"} href="/fontys-intersect-2021/#/owasp/top/6">Insufficient Privacy Protection</Link>
           </ListItem>
           <ListItem>
-            <Link href="/fontys-intersect-2021/#/owasp/top/7">Insecure Data Transfer and Storage</Link>
+            <Link textColor={"blue"} href="/fontys-intersect-2021/#/owasp/top/7">Insecure Data Transfer and Storage</Link>
           </ListItem>
           <ListItem>
-            <Link href="/fontys-intersect-2021/#/owasp/top/8">Lack of Device Management</Link>
+            <Link textColor={"blue"} href="/fontys-intersect-2021/#/owasp/top/8">Lack of Device Management</Link>
           </ListItem>
           <ListItem>
-            <Link href="/fontys-intersect-2021/#/owasp/top/9">Insecure Default Settings</Link>
+            <Link textColor={"blue"} href="/fontys-intersect-2021/#/owasp/top/9">Insecure Default Settings</Link>
           </ListItem>
           <ListItem>
-            <Link href="/fontys-intersect-2021/#/owasp/top/10">Lack of Physical Hardening</Link>
+            <Link textColor={"blue"} href="/fontys-intersect-2021/#/owasp/top/10">Lack of Physical Hardening</Link>
           </ListItem>
         </OrderedList>
       </Text>

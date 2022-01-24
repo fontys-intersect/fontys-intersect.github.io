@@ -69,7 +69,7 @@ export default function Navbar() {
               spacing={4}
               display={{ base: "none", md: "flex" }}
             >
-              <Link
+              {/* <Link
                 px={2}
                 py={1}
                 rounded={"md"}
@@ -80,7 +80,7 @@ export default function Navbar() {
                 href={"/fontys-intersect-2021/#/"}
               >
                 Home
-              </Link>
+              </Link> */}
               <Menu>
                 <MenuButton
                   // as={Button}

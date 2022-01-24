@@ -33,7 +33,7 @@ export const Article = () => (
                     applied or is missing.
                 </Text>
                 <br/>
-            </Text><Divider m={2}/>
+            </Text>
             <Text fontSize={"l"}>Sept 2021 - Jan 2022</Text>
             <Divider/>
 
