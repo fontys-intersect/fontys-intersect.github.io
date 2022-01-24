@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 import {
   Box,
-  Image,
   Flex,
   HStack,
   Link,
@@ -9,13 +8,12 @@ import {
   Menu,
   MenuButton,
   MenuList,
+  MenuGroup,
+  MenuDivider,
   MenuItem,
   useDisclosure,
   useColorModeValue,
   Stack,
-  MenuOptionGroup,
-  MenuItemOption,
-  MenuDivider,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 
@@ -147,43 +145,43 @@ export default function Navbar() {
                     Overview
                   </MenuItem>
                   <MenuDivider />
-                  <MenuOptionGroup title="2021-2022"><MenuItemOption as="a" href="/fontys-intersect-2021/#/case/wled">
+                  <MenuGroup title="2021-2022"><MenuItem as="a" href="/fontys-intersect-2021/#/case/wled">
                     WLED
-                  </MenuItemOption>
-                    <MenuItemOption
+                  </MenuItem>
+                    <MenuItem
                       as="a"
                       href="/fontys-intersect-2021/#/case/boschsiemens"
                     >
                       Bosch Siemens
-                    </MenuItemOption>
-                    <MenuItemOption
+                    </MenuItem>
+                    <MenuItem
                       as="a"
                       href="/fontys-intersect-2021/#/case/smartlock"
                     >
                       Smart Lock Biometric
-                    </MenuItemOption>
-                    <MenuItemOption
+                    </MenuItem>
+                    <MenuItem
                       as="a"
                       href="/fontys-intersect-2021/#/case/gooveysmarttemp"
                     >
                       Goovey Smart Temp
-                    </MenuItemOption>
-                    <MenuItemOption as="a" href="/fontys-intersect-2021/#/case/printer">
+                    </MenuItem>
+                    <MenuItem as="a" href="/fontys-intersect-2021/#/case/printer">
                       HP Printer
-                    </MenuItemOption>
-                    <MenuItemOption
+                    </MenuItem>
+                    <MenuItem
                       as="a"
                       href="/fontys-intersect-2021/#/case/smartlockbt"
                     >
                       Smart Lock Bluetooth
-                    </MenuItemOption>
-                    <MenuItemOption
+                    </MenuItem>
+                    <MenuItem
                       as="a"
                       href="/fontys-intersect-2021/#/case/solaredge"
                     >
                       Solar Edge
-                    </MenuItemOption>
-                  </MenuOptionGroup>
+                    </MenuItem>
+                  </MenuGroup>
                 </MenuList>
               </Menu>
             </HStack>
