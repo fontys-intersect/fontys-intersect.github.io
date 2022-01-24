@@ -1,10 +1,8 @@
-import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
   Box,
   Container,
   Image,
   Text,
-  Divider,
   ListItem,
   UnorderedList,
   Link,
@@ -127,7 +125,7 @@ export const Wled = () => (
         unable to work via the interface or client.
       </Text>
       <Image
-      src={"/fontys-intersect-2021/assets/images/wled_Loic.png"}
+      src={"/fontys-intersect-2021/assets/images/Wled_Loic.png"}
       alt="test"
       h={"50%"}
       w={"50%"}
@@ -146,11 +144,12 @@ export const Wled = () => (
         send these requests without any problem.
       </Text>
       <Image
-      src={"/fontys-intersect-2021/assets/images/wled_burbsuit.gif"}
+      src={"/fontys-intersect-2021/assets/images/Wled_burbsuit.gif"}
       alt="test"
       h={"50%"}
       w={"50%"}
     />
+    <br />
     <Image
       src={"/fontys-intersect-2021/assets/images/Wled_Leds_inf.png"}
       alt="test"
@@ -198,19 +197,6 @@ export const Wled = () => (
         vulnerabilities are really fixed.
       </Text>
       <br/>
-      <Divider m={2} />
-      <Text fontSize="3xl"> Bibliography </Text>
-      <Text fontSize={"xl"}>
-        The bibliography according to this page is <br />
-        <UnorderedList>
-          <ListItem>
-            About. (z.d.). NWO. Geraadpleegd op 10 december 2020, van&nbsp;
-            <Link href="https://www.nwo.nl/en/about-nwo">
-              About nwo <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem>
-        </UnorderedList>
-      </Text>
     </Container>
     <Container h={"200px"}></Container>
   </Box>
