@@ -126,6 +126,12 @@ export const Wled = () => (
         DOS attack, after only 10000 requests the esp will reboot making it
         unable to work via the interface or client.
       </Text>
+      <Image
+      src={"/fontys-intersect-2021/assets/images/wled_Loic.png"}
+      alt="test"
+      h={"50%"}
+      w={"50%"}
+    />
       <br />
       <Text>
         <Text fontWeight={"bold"}>Fix:</Text> Integrating a form of request
@@ -139,6 +145,18 @@ export const Wled = () => (
         software does not use any form of headers or sessions it was easy to
         send these requests without any problem.
       </Text>
+      <Image
+      src={"/fontys-intersect-2021/assets/images/wled_burbsuit.gif"}
+      alt="test"
+      h={"50%"}
+      w={"50%"}
+    />
+    <Image
+      src={"/fontys-intersect-2021/assets/images/Wled_Leds_inf.png"}
+      alt="test"
+      h={"50%"}
+      w={"50%"}
+    />
       <br />
       <Text>
         <Text fontWeight={"bold"}>Fix:</Text> Using a session id according with
