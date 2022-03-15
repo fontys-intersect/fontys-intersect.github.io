@@ -21,6 +21,7 @@ export const CaseOverview = () => (
         <ListItem>Smart Industry</ListItem>
         <ListItem>Smart Office</ListItem>
         <ListItem>Smart Health</ListItem>
+        <ListItem>Smart Energy</ListItem>
       </UnorderedList>
 
       <br />
