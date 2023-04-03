@@ -33,7 +33,9 @@ export const Homepage = () => (
             <Text fontSize="3xl" fontWeight={"bold"}> Objective</Text>
             <Text fontSize={"l"}>
                 The objective of these guidelines is to show how to secure IoT devices better in the current best
-                possible way. This will be done by doing research performing pentest and analysis.
+                possible way. This will be done in a case-based way. First we have defined general security 
+                best-practices for IoT. From these best-practices we analyse the security of IoT environment 
+                and devices through vulnerability research.
             </Text>
             <br/>
             <Text fontSize="3xl" fontWeight={"bold"}> Scope </Text>
