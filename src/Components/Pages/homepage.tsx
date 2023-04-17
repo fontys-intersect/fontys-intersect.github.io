@@ -13,7 +13,7 @@ export const Homepage = () => (
         <Container maxW={["100%", "80%"]} h={"100vh"} p={4}>
             <Text fontSize="3xl" fontWeight={"bold"}> The project </Text>
             <Text fontSize={"l"}>
-                This website describes the research conducted on behalf of the INTERSCT
+                This blahblah website describes the research conducted on behalf of the INTERSCT
                 project. The goal of the project behind this site was to write general
                 guidelines for securing all IoT devices and applications by pentesting
                 multiple IoT devices. The main focus was on smart office and smart
