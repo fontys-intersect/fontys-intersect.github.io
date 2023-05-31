@@ -20,6 +20,10 @@ import { Password } from "./Pages/Owasp/passwords";
 import { OwaspHome } from "./Pages/Owasp/top10home";
 import { Monitoring } from "./Pages/BestPractices/monitoring";
 import { SmartLockBT } from "./Pages/Cases/smartLockBT";
+import { BiometricLock } from "./Pages/BiometricLock/biometriclock";
+import { Foscam } from "./Pages/Foscam/foscam";
+import { SmartLighting } from "./Pages/SmartLighting/smartlighting";
+import { FlipperZero } from "./Pages/FlipperZero/flipperzero";
 
 import {Network} from "./Pages/Owasp/insecurenetwork";
 import {Interfaces} from "./Pages/Owasp/insecureinterfaces";
@@ -62,6 +66,10 @@ class Router extends Component {
 
 
           <Route path="/" exact component={Homepage} />
+          <Route path="/case/biometriclock" exact component={BiometricLock} />
+          <Route path="/case/foscam" exact component={Foscam} />
+          <Route path="/case/flipperzero" exact component={SmartLighting} />
+          <Route path="/case/smartlighting" exact component={SmartLighting} />
           <Route path="/case/wled" exact component={Wled} />
           <Route path="/case/smartlockbt" exact component={SmartLockBT} />
           <Route path="/case/smartlock" exact component={SmartLock} />
