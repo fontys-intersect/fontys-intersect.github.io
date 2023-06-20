@@ -49,7 +49,7 @@ export const Article = () => (
                     </Link>
                     (Smart Home)
                 </ListItem>
-
+        
             </UnorderedList>
 
             <br/>

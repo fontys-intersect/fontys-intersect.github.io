@@ -154,7 +154,7 @@ export default function Navbar() {
                   <MenuDivider/>
                   <MenuGroup title="2023"/>
                   <MenuItem as="a" href="/#/case/flipperzero">
-                    Flipper Zero
+                    Flipper Zero & Kismet
                   </MenuItem>
                   <MenuItem as="a" href="/#/case/smartlighting">
                     Philips Hue Bridge
@@ -162,10 +162,10 @@ export default function Navbar() {
                   <MenuItem as="a" href="/#/case/foscam">
                     Foscam
                   </MenuItem>
-                  <MenuItem as="a" href="/#/case/biometriclock">
-                    Biometric Lock
+                  <MenuItem as="a" href="/#/case/bluetoothlock">
+                    Master Bluetooth Lock
                   </MenuItem>
-
+                  
                   <MenuDivider/>
                   <MenuGroup title="2021-2022">
                     

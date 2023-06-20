@@ -20,7 +20,8 @@ import { Password } from "./Pages/Owasp/passwords";
 import { OwaspHome } from "./Pages/Owasp/top10home";
 import { Monitoring } from "./Pages/BestPractices/monitoring";
 import { SmartLockBT } from "./Pages/Cases/smartLockBT";
-import { BiometricLock } from "./Pages/BiometricLock/biometriclock";
+import { BluetoothLock } from "./Pages/BluetoothLock/bluetoothlock";
+import { BluetoothLock2 } from "./Pages/BluetoothLock2/bluetoothlock2";
 import { Foscam } from "./Pages/Foscam/foscam";
 import { SmartLighting } from "./Pages/SmartLighting/smartlighting";
 import { FlipperZero } from "./Pages/FlipperZero/flipperzero";
@@ -48,12 +49,18 @@ import { CaseOverview } from "./Pages/Cases";
 import {SmartScreen} from "./Pages/Cases/smartScreen";
 import { ToolingOverview } from "./Pages/Tooling";
 import { Burpsuite } from "./Pages/Tooling/burpsuite";
+import { Metasploit } from "./Pages/Tooling/metasploit";
+import { Shodan } from "./Pages/Tooling/shodan";
+import { Nessus } from "./Pages/Tooling/nessus";
 import { HciTool } from "./Pages/Tooling/hciTool";
 import { PrinterExploitTool } from "./Pages/Tooling/printerExploitTool";
+import { Gattacker } from "./Pages/Tooling/gattacker";
+import { Bdaddr } from "./Pages/Tooling/bdaddr";
+import { Nrfconnect } from "./Pages/Tooling/nrfconnect";
 import { Wireshark } from "./Pages/Tooling/wireshark";
 import { ZeekTooling } from "./Pages/Tooling/zeekTooling";
 import {NetworkSetup} from "./Pages/Tooling/networksetup";
-
+import {TestLab} from "./Pages/Tooling/testlab";
 
 class Router extends Component {
   render() {
@@ -66,9 +73,10 @@ class Router extends Component {
 
 
           <Route path="/" exact component={Homepage} />
-          <Route path="/case/biometriclock" exact component={BiometricLock} />
+          <Route path="/case/bluetoothlock" exact component={BluetoothLock} />
+          <Route path="/case/bluetoothlock2" exact component={BluetoothLock2} />
           <Route path="/case/foscam" exact component={Foscam} />
-          <Route path="/case/flipperzero" exact component={SmartLighting} />
+          <Route path="/case/flipperzero" exact component={FlipperZero} />
           <Route path="/case/smartlighting" exact component={SmartLighting} />
           <Route path="/case/wled" exact component={Wled} />
           <Route path="/case/smartlockbt" exact component={SmartLockBT} />
@@ -94,15 +102,22 @@ class Router extends Component {
           <Route path="/owasp/top/10" exact component={Physical} />
           <Route path="/article/home" exact component={Article} />
           <Route path="/article/wled" exact component={WLEDArticle} />
+          <Route path="/tooling/testlab" exact component={TestLab} />
           <Route path="/article/network" exact component={SecureArticle} />
           <Route path="/bestpractices" exact component={BestPractices} />
           <Route path="/tooling" exact component={ToolingOverview} />
           <Route path="/tooling/burpsuite" exact component={Burpsuite} />
+          <Route path="/tooling/nessus" exact component={Nessus} />
+          <Route path="/tooling/metasploit" exact component={Metasploit} />
+          <Route path="/tooling/shodan" exact component={Shodan} />
           <Route path="/tooling/hci" exact component={HciTool} />
           <Route path="/tooling/pret" exact component={PrinterExploitTool} />
           <Route path="/tooling/wireshark" exact component={Wireshark} />
           <Route path="/tooling/zeek" exact component={ZeekTooling} />
           <Route path="/tooling/networksetup" exact component={NetworkSetup} />
+          <Route path="/tooling/gattacker" exact component={Gattacker} />
+          <Route path="/tooling/nrfconnect" exact component={Nrfconnect} />
+          <Route path="/tooling/bdaddr" exact component={Bdaddr} />
           <Route
             path="/bestpractices/authentication"
             exact
