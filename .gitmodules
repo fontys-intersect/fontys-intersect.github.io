@@ -1,0 +1,3 @@
+[submodule "fontys-intersct-papers"]
+	path = fontys-intersct-papers
+	url = https://github.com/fontys-intersect/fontys-intersct-papers.git
